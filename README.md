@@ -105,6 +105,13 @@
     * Service
     * Endpoint
 
+* **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
+  * Generate Kubernetes architecture diagrams from Kubernetes manifest files. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
+  * Git stars: 1
+  * Last commit: Dec 27, 2024
+  * Implementation: Python with Diagrams
+  * Most of Kubernetes resources supported
+
 * **kube-diagram**: [https://github.com/kahowell/kube-diagram](https://github.com/kahowell/kube-diagram)
   * Experimental cli tool to generate plantuml diagrams of k8s/openshift resources
   * Git stars: 1
