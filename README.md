@@ -168,27 +168,21 @@
 
 ### Comparison Table
 
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
-
 | Tool | #Kinds | Activity | #Stars |
 | :--------: | :-------: | :-------: | :-------: |
-| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | **<r>Inactive</r>** | **<g>292</g>** |
-| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | **<g>Active</g>** | **<g>141</g>** |
-| **[GruCloud](https://github.com/grucloud/grucloud)** | *Unknown* | **<g>Active</g>** | **<g>115</g>** |
-| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | *Unknown* | **<g>Active</g>** | **16** |
-| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | *Unknown* | **<g>Active</g>** | **13** |
-| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | **<r>Inactive</r>** | **8** |
-| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | **8** | **<r>Inactive</r>** | **<r>2</r>** |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<g>25</g>** | **<g>Active</g>** | **<r>1</r>** |
-| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | *Unknown* | **<r>Inactive</r>** | **<r>1</r>** |
-| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | **<r>3</r>** | **<r>Inactive</r>** | **<r>1</r>** |
-| **[k8d](https://github.com/NickSchleicher/k8d)** | **<r>2</r>** | **<r>Inactive</r>** | **<r>1</r>** |
-| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | **8** | **<g>Active</g>** | **<r>0</r>** |
-| **[KubeDraw](https://github.com/B0nam/kubedraw)** | **5** | **<g>Active</g>** | **<r>0</r>** |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | $\color{red}{\textbf{Inactive}}$ | $\color{green}{\textbf{292}}$ |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{141}}$ |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | *Unknown* | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{115}}$ |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | *Unknown* | $\color{green}{\textbf{Active}}$ | **16** |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | *Unknown* | $\color{green}{\textbf{Active}}$ | **13** |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | $\color{red}{\textbf{Inactive}}$ | **8** |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | **8** | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{2}}$ |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{25}}$ | $\color{green}{\textbf{Active}}$ | $\color{red}{\textbf{1}}$ |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | *Unknown* | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | $\color{red}{\textbf{3}}$ | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | $\color{red}{\textbf{2}}$ | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{red}{\textbf{0}}$ |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | **5** | $\color{green}{\textbf{Active}}$ | $\color{red}{\textbf{0}}$ |
 
 ## Diagrams as Code
 
