@@ -9,6 +9,7 @@
 * **Holori**: [https://holori.com/kubernetes-diagram-tool/](https://holori.com/kubernetes-diagram-tool/)
 
 * **Hyperglance**: [https://www.hyperglance.com/platforms/kubernetes/](https://www.hyperglance.com/platforms/kubernetes/)
+
 * **Layer5**: [https://layer5.io/cloud-native-management/generate-kubernetes-architecture-diagram](https://layer5.io/cloud-native-management/generate-kubernetes-architecture-diagram)
 
 * **Moqups**: [https://moqups.com/templates/mapping-and-diagramming/network-diagrams/kubernetes-diagram/](https://moqups.com/templates/mapping-and-diagramming/network-diagrams/kubernetes-diagram/)
@@ -164,7 +165,7 @@
     * Ingress
     * Service
     * Namespace
-    
+
 ## Diagrams as Code
 
 * **Diagrams**: [https://github.com/mingrammer/diagrams](https://github.com/mingrammer/diagrams)
@@ -181,9 +182,8 @@
   * Implementation: Python with Diagrams
   * Most of Kubernetes resources supported
 
-* **Kubernetes-PlantUML**
+* **Kubernetes-PlantUML**: [https://github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML)
   * PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components
-  * [https://github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML)
   * Git stars: 250
   * Last commit: Mar 11, 2021
   * Implementation: PlantUML
