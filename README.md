@@ -117,14 +117,14 @@
   * KIS unsupported
   * Output formats: PlantUML
 
-  * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
-    * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-    * GitHub stars: 98
-    * Last commit:  Feb 11, 2025
-    * Implementation: Python with Diagrams
-    * 42 Kubernetes resource kinds supported
-    * KIS supported
-    * Output formats: PNG, JPG, SVG, PDF, and DOT
+* **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
+  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
+  * GitHub stars: 98
+  * Last commit:  Feb 11, 2025
+  * Implementation: Python with Diagrams
+  * 42 Kubernetes resource kinds supported
+  * KIS supported
+  * Output formats: PNG, JPG, SVG, PDF, and DOT
 
 * **K8s Diagram architecture generator**: [https://github.com/kocierik/k8s-to-diagram](https://github.com/kocierik/k8s-to-diagram)
   * Generate a diagram architecture from kubernetes manifests
