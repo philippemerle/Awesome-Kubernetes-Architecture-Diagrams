@@ -37,14 +37,14 @@
 
 * **Diagrams as code**: [https://github.com/dmytrostriletskyi/diagrams-as-code](https://github.com/dmytrostriletskyi/diagrams-as-code)
   * Declarative configurations using YAML for drawing cloud system architectures
-  * Git stars: 337
+  * Git stars: 338
   * Last commit: Sep 12, 2023
   * Implementation: Python with Diagrams
   * Most of Kubernetes resources supported
 
 * **Kubernetes-PlantUML**: [https://github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML)
   * PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components
-  * Git stars: 253
+  * Git stars: 254
   * Last commit: Mar 11, 2021
   * Implementation: PlantUML
   * Most of Kubernetes resources supported
@@ -119,8 +119,8 @@
 
 * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
   * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-  * GitHub stars: 98
-  * Last commit:  Feb 11, 2025
+  * GitHub stars: 100
+  * Last commit:  Feb 13, 2025
   * Implementation: Python with Diagrams
   * 42 Kubernetes resource kinds supported
   * KIS supported
@@ -269,7 +269,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | $\color{red}{\textbf{Inactive}}$ | $\color{green}{\textbf{298}}$ |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{141}}$ |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{115}}$ |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{42}}$ | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{98}}$ |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{42}}$ | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{100}}$ |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | $\color{green}{\textbf{Active}}$ | **18** |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **7** | $\color{green}{\textbf{Active}}$ | **13** |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | $\color{red}{\textbf{Inactive}}$ | **8** |
@@ -296,3 +296,5 @@
   * Most of Kubernetes resources supported
 
 * **Drawing your Kubernetes cluster the right way**: [https://archive.fosdem.org/2023/schedule/event/container_kubernetes_cluster_right_way/attachments/slides/5304/export/events/attachments/container_kubernetes_cluster_right_way/slides/5304/kda_FOSDEM_2023_k8s.pdf](https://archive.fosdem.org/2023/schedule/event/container_kubernetes_cluster_right_way/attachments/slides/5304/export/events/attachments/container_kubernetes_cluster_right_way/slides/5304/kda_FOSDEM_2023_k8s.pdf)
+
+* Talk [https://www.youtube.com/watch?v=GEeodHEOmvA](Visualizing Kubernetes with Generated Diagrams) at Southern California Linux Expo
