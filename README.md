@@ -297,4 +297,4 @@
 
 * **Drawing your Kubernetes cluster the right way**: [https://archive.fosdem.org/2023/schedule/event/container_kubernetes_cluster_right_way/attachments/slides/5304/export/events/attachments/container_kubernetes_cluster_right_way/slides/5304/kda_FOSDEM_2023_k8s.pdf](https://archive.fosdem.org/2023/schedule/event/container_kubernetes_cluster_right_way/attachments/slides/5304/export/events/attachments/container_kubernetes_cluster_right_way/slides/5304/kda_FOSDEM_2023_k8s.pdf)
 
-* Talk [https://www.youtube.com/watch?v=GEeodHEOmvA](Visualizing Kubernetes with Generated Diagrams) at Southern California Linux Expo
+* Talk [Visualizing Kubernetes with Generated Diagrams](https://www.youtube.com/watch?v=GEeodHEOmvA) at Southern California Linux Expo
