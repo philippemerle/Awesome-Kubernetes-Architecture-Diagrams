@@ -119,10 +119,10 @@
 
 * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
   * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-  * GitHub stars: 100
-  * Last commit:  Feb 13, 2025
+  * GitHub stars: 101
+  * Last commit:  Feb 19, 2025
   * Implementation: Python with Diagrams
-  * 42 Kubernetes resource kinds supported
+  * 45 Kubernetes resource kinds supported
   * KIS supported
   * Output formats: PNG, JPG, SVG, PDF, and DOT
 
@@ -269,7 +269,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | $\color{red}{\textbf{Inactive}}$ | $\color{green}{\textbf{298}}$ |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{141}}$ |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{115}}$ |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{42}}$ | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{100}}$ |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{45}}$ | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{101}}$ |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | $\color{green}{\textbf{Active}}$ | **18** |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **7** | $\color{green}{\textbf{Active}}$ | **13** |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | $\color{red}{\textbf{Inactive}}$ | **8** |
