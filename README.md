@@ -30,22 +30,22 @@
 
 * **Diagrams**: [https://github.com/mingrammer/diagrams](https://github.com/mingrammer/diagrams)
   * Diagram as Code for prototyping cloud system architectures
-  * Git stars: 40.3k
-  * Last commit: Feb 11, 2025
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/mingrammer/diagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/mingrammer/diagrams?style=flat)
   * Implementation: Python
   * Most of Kubernetes resources supported
 
 * **Diagrams as code**: [https://github.com/dmytrostriletskyi/diagrams-as-code](https://github.com/dmytrostriletskyi/diagrams-as-code)
   * Declarative configurations using YAML for drawing cloud system architectures
-  * Git stars: 338
-  * Last commit: Sep 12, 2023
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/dmytrostriletskyi/diagrams-as-code)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/dmytrostriletskyi/diagrams-as-code?style=flat)
   * Implementation: Python with Diagrams
   * Most of Kubernetes resources supported
 
 * **Kubernetes-PlantUML**: [https://github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML)
   * PlantUML sprites, macros and stereotypes for creating PlantUML diagrams with the Kubernetes components
-  * Git stars: 254
-  * Last commit: Mar 11, 2021
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/dcasati/kubernetes-PlantUML)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/dcasati/kubernetes-PlantUML?style=flat)
   * Implementation: PlantUML
   * Most of Kubernetes resources supported
 
@@ -55,8 +55,8 @@
 
 * **k8sviz**: [https://github.com/mkimuram/k8sviz](https://github.com/mkimuram/k8sviz)
   * Generate Kubernetes architecture diagrams from the actual state in a namespace
-  * GitHub stars: 298
-  * Last commit: Jun 6, 2022
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat)
   * Implementation: Go and Graphviz
   * Input: K8s API
   * Supported Kubernetes resources
@@ -77,8 +77,8 @@
 
 * **Kubernetes diagrams**: [https://github.com/trois-six/k8s-diagrams](https://github.com/trois-six/k8s-diagrams)
   * Create diagrams from the Kubernetes API with go-diagrams
-  * GitHub stars: 141
-  * Last commit: Feb 15, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat)
   * Implementation: Go
   * Input: K8s API
   * Supported Kubernetes resources
@@ -95,8 +95,8 @@
 
 * **GruCloud**: [https://github.com/grucloud/grucloud](https://github.com/grucloud/grucloud)
   * Generate code and diagrams from cloud infrastructures: AWS, Azure, GCP, Kubernetes
-  * GitHub stars: 115
-  * Last commit: Sep 10, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat)
   * Implementation: JavaScript
   * Input: JavaScript IaC
   * Supported Kubernetes resources
@@ -119,8 +119,8 @@
 
 * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
   * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-  * GitHub stars: 101
-  * Last commit:  Feb 19, 2025
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
   * Implementation: Python with Diagrams
   * 45 Kubernetes resource kinds supported
   * KIS supported
@@ -128,8 +128,8 @@
 
 * **K8s Diagram architecture generator**: [https://github.com/kocierik/k8s-to-diagram](https://github.com/kocierik/k8s-to-diagram)
   * Generate a diagram architecture from kubernetes manifests
-  * GitHub stars: 18
-  * Last commit: Sep 1, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/kocierik/k8s-to-diagram)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/kocierik/k8s-to-diagram?style=flat)
   * Implementation: Go and D2
   * Input formats: K8s manifest annotations
   * Supported Kubernetes resources
@@ -147,8 +147,8 @@
 
 * **react-k8s-viewer**: [https://github.com/SocialGouv/react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)
   * Render diagrams from your kubernetes manifests
-  * GitHub stars: 13
-  * Last commit: Nov 12, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/SocialGouv/react-k8s-viewer)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/SocialGouv/react-k8s-viewer?style=flat)
   * Implementation: TypeScript
   * Input formats: K8s manifests
   * 7 Kubernetes resource kinds supported
@@ -157,8 +157,8 @@
 
 * **K8s Diagram Previewer**: [https://github.com/jimmymills/k8s-diagram-previewer](https://github.com/jimmymills/k8s-diagram-previewer)
   * Diagram generator for Kubernetes manifests
-  * GitHub stars: 8
-  * Last commit: Jul 20, 2021
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/jimmymills/k8s-diagram-previewer)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/jimmymills/k8s-diagram-previewer?style=flat)
   * Implementation: Python with Diagrams
   * Input formats: K8s manifests and Helm charts
   * Supported Kubernetes resources
@@ -178,8 +178,8 @@
 
 * **k8s-diagrams**: [https://github.com/imjoseangel/k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)
   * Creates graphviz diagrams from the Kubernetes API
-  * GitHub stars: 2
-  * Last commit: Oct 31, 2021
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/imjoseangel/k8s-diagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/imjoseangel/k8s-diagrams?style=flat)
   * Implementation: Python with Diagrams
   * Input formats: K8s API
   * Supported Kubernetes resources
@@ -196,8 +196,8 @@
 
 * **kube-diagram**: [https://github.com/kahowell/kube-diagram](https://github.com/kahowell/kube-diagram)
   * Experimental cli tool to generate plantuml diagrams of k8s/openshift resources
-  * GitHub stars: 1
-  * Last commit: Jan 14, 2022
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/kahowell/kube-diagram)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/kahowell/kube-diagram?style=flat)
   * Implementation: Java
   * Input formats: K8s manifests
   * Few Kubernetes resources supported
@@ -206,8 +206,8 @@
 
 * **kube-diagrams**: [https://github.com/sunny10031982/kube-diagrams](https://github.com/sunny10031982/kube-diagrams)
   * Generate Kubernetes diagrams
-  * GitHub stars: 1
-  * Last commit: Apr 3, 2020
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/sunny10031982/kube-diagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/sunny10031982/kube-diagrams?style=flat)
   * Implementation: Python with Diagrams
   * Input formats: K8s API
   * Supported Kubernetes resources
@@ -219,8 +219,8 @@
 
 * **k8d**: [https://github.com/NickSchleicher/k8d](https://github.com/NickSchleicher/k8d)
   * Diagram Kubernetes Network Policies
-  * GitHub stars: 1
-  * Last commit: Jan 21, 2020
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/NickSchleicher/k8d)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/NickSchleicher/k8d?style=flat)
   * Implementation: Go
   * Input formats: K8s API
   * Supported Kubernetes resources
@@ -231,8 +231,8 @@
 
 * **k8s_diagram**: [https://github.com/MrSir/k8s_diagram](https://github.com/MrSir/k8s_diagram)
   * A simple package to generate mermaid.js diagram of your Kubernetes Cluster
-  * GitHub stars: 0
-  * Last commit: May 9, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/MrSir/k8s_diagram)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/MrSir/k8s_diagram?style=flat)
   * Implementation: Python
   * Input formats: K8s API
   * Kubernetes resources supported
@@ -249,8 +249,8 @@
 
 * **KubeDraw**: [https://github.com/B0nam/kubedraw](https://github.com/B0nam/kubedraw)
   * A Python-based tool designed to simplify the visualization of Kubernetes infrastructure
-  * GitHub stars: 0
-  * Last commit: May 20, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/B0nam/kubedraw)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/B0nam/kubedraw?style=flat)
   * Implementation: Python with Diagrams
   * Input formats: K8s API
   * Kubernetes resources supported
@@ -266,32 +266,32 @@
 
 | Tool | K8s Kinds | Activity | GitHub Stars |
 | :--------: | :-------: | :-------: | :-------: |
-| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | $\color{red}{\textbf{Inactive}}$ | $\color{green}{\textbf{298}}$ |
-| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{141}}$ |
-| **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{115}}$ |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{45}}$ | $\color{green}{\textbf{Active}}$ | $\color{green}{\textbf{101}}$ |
-| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | $\color{green}{\textbf{Active}}$ | **18** |
-| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **7** | $\color{green}{\textbf{Active}}$ | **13** |
-| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | $\color{red}{\textbf{Inactive}}$ | **8** |
-| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | **8** | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{2}}$ |
-| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | **5** | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
-| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | $\color{red}{\textbf{3}}$ | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
-| **[k8d](https://github.com/NickSchleicher/k8d)** | $\color{red}{\textbf{2}}$ | $\color{red}{\textbf{Inactive}}$ | $\color{red}{\textbf{1}}$ |
-| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | **8** | $\color{green}{\textbf{Active}}$ | $\color{red}{\textbf{0}}$ |
-| **[KubeDraw](https://github.com/B0nam/kubedraw)** | **5** | $\color{green}{\textbf{Active}}$ | $\color{red}{\textbf{0}}$ |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | $\color{green}{\textbf{Active}}$ |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{45}}$ | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/kocierik/k8s-to-diagram?style=flat) |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **7** | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/SocialGouv/react-k8s-viewer?style=flat) |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/jimmymills/k8s-diagram-previewer?style=flat) |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | **8** | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/imjoseangel/k8s-diagrams?style=flat&color=%23FF0000) |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | **5** | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/kahowell/kube-diagram?style=flat&color=%23FF0000) |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | $\color{red}{\textbf{3}}$ | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/sunny10031982/kube-diagrams?style=flat&color=%23FF0000) |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | $\color{red}{\textbf{2}}$ | $\color{red}{\textbf{Inactive}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/NickSchleicher/k8d?style=flat&color=%23FF0000) |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | **8** | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/MrSir/k8s_diagram?style=flat&color=%23FF0000) |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | **5** | $\color{green}{\textbf{Active}}$ | ![GitHub Repo stars](https://img.shields.io/github/stars/B0nam/kubedraw?style=flat&color=%23FF0000) |
 
 
 ## Various Other Resources
 
 * **k8s-diagrams**: [https://github.com/cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams)
   * A collection of diagrams explaining Kubernetes
-  * Git stars: 327
-  * Last commit: Mar 25, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/cloudogu/k8s-diagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/cloudogu/k8s-diagrams?style=flat)
 
 * **Hari Sekhon - Diagrams-as-Code**: [https://github.com/HariSekhon/Diagrams-as-Code](https://github.com/HariSekhon/Diagrams-as-Code)
   * Cloud & DevOps Architecture Diagrams-as-Code in Python and D2 languages
-  * Git stars: 176
-  * Last commit: Nov 11, 2024
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/HariSekhon/Diagrams-as-Code)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/HariSekhon/Diagrams-as-Code?style=flat)
   * Implementation: D2 and Python with Diagrams
   * Most of Kubernetes resources supported
 
