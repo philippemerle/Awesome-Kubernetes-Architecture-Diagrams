@@ -75,14 +75,14 @@
   * KIS supported
   * Output formats: [all Graphviz output formats](https://graphviz.org/docs/outputs/)
 
-  * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
-    * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-    * ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
-    * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
-    * Implementation: Python with Diagrams
-    * 48 Kubernetes resource kinds supported
-    * KIS supported
-    * Output formats: PNG, JPG, SVG, PDF, and DOT
+* **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
+  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
+  * ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
+  * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
+  * Implementation: Python with Diagrams
+  * 48 Kubernetes resource kinds supported
+  * KIS supported
+  * Output formats: PNG, JPG, SVG, PDF, and DOT
 
 * **Kubernetes diagrams**: [https://github.com/trois-six/k8s-diagrams](https://github.com/trois-six/k8s-diagrams)
   * Create diagrams from the Kubernetes API with go-diagrams
