@@ -89,6 +89,20 @@
   * KIS supported
   * Output formats: Web pages
 
+* **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
+  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
+  * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
+  * Activity:
+    * ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams)
+    * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
+    * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/philippemerle/KubeDiagrams)
+    * ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams)
+  * Implementation: Python with Diagrams
+  * Input formats: K8s manifests, kustomization files, Helm charts, and K8s API
+  * 48 Kubernetes resource kinds supported
+  * KIS supported
+  * Output formats: PNG, JPG, SVG, PDF, and DOT
+
 * **k8sviz**: [https://github.com/mkimuram/k8sviz](https://github.com/mkimuram/k8sviz)
   * Generate Kubernetes architecture diagrams from the actual state in a namespace
   * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz)
@@ -114,20 +128,6 @@
     * HorizontalPodAutoscaler
   * KIS supported
   * Output formats: [all Graphviz output formats](https://graphviz.org/docs/outputs/)
-
-* **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
-  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
-  * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
-  * Activity:
-    * ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams)
-    * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
-    * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/philippemerle/KubeDiagrams)
-    * ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams)
-  * Implementation: Python with Diagrams
-  * Input formats: K8s manifests, kustomization files, Helm charts, and K8s API
-  * 48 Kubernetes resource kinds supported
-  * KIS supported
-  * Output formats: PNG, JPG, SVG, PDF, and DOT
 
 * **Kubernetes diagrams**: [https://github.com/trois-six/k8s-diagrams](https://github.com/trois-six/k8s-diagrams)
   * Create diagrams from the Kubernetes API with go-diagrams
@@ -375,8 +375,8 @@
 | Tool | K8s Kinds | Activity | Popularity |
 | :--------: | :-------: | :-------: | :-------: |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | **10** | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
-| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | $\color{green}{\textbf{48}}$ | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | ![GitHub Created At](https://img.shields.io/github/created-at/grucloud/grucloud) ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud) | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | ![GitHub Created At](https://img.shields.io/github/created-at/kocierik/k8s-to-diagram) ![GitHub last commit](https://img.shields.io/github/last-commit/kocierik/k8s-to-diagram?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/kocierik/k8s-to-diagram) | ![GitHub Repo stars](https://img.shields.io/github/stars/kocierik/k8s-to-diagram?style=flat) |
