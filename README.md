@@ -394,6 +394,11 @@
 
 [![Star History Chart](https://api.star-history.com/svg?repos=benc-uk/kubeview,philippemerle/KubeDiagrams,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#benc-uk/kubeview&philippemerle/KubeDiagrams&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
 
+### Activity Timeline
+
+[![Activity Timeline Chart](images/activity_timeline.png)](images/activity_timeline.png)
+[//]: # (Generated with http://www.frisechronos.fr/DojoMain.htm)
+
 ## Various Other Resources
 
 * **k8s-diagrams**: [https://github.com/cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams)
