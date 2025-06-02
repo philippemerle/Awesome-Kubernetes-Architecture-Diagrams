@@ -86,6 +86,10 @@
     * PersistentVolumeClaim
     * Secret
     * ConfigMap
+    * Job
+    * CronJob
+    * Namespace
+    * Endpoints
   * KIS supported
   * Output formats: Web pages
 
@@ -374,7 +378,7 @@
 
 | Tool | K8s Kinds | Activity | Popularity |
 | :--------: | :-------: | :-------: | :-------: |
-| **[KubeView](https://github.com/benc-uk/kubeview)** | **10** | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | **14** | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">47+</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
