@@ -396,8 +396,7 @@
 
 ### Activity Timeline
 
-[![Activity Timeline Chart](images/activity_timeline.png)](images/activity_timeline.png)
-[//]: # (Generated with http://www.frisechronos.fr/DojoMain.htm)
+[![Activity Timeline Generated with http://www.frisechronos.fr/DojoMain.htm)](images/activity_timeline.png)](images/activity_timeline.png)
 
 ## Various Other Resources
 
