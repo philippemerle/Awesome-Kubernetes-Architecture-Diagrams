@@ -66,7 +66,7 @@
 ## Generation Tools
 
 * **KubeDiagrams**: [https://github.com/philippemerle/KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)
-  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
+  * Generate Kubernetes architecture diagrams from Kubernetes manifest files, kustomization files, Helm charts, helmfiles, and actual cluster state. The main originality of KubeDiagrams is its configurability allowing for instance to deal with custom Kubernetes resources.
   * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams)
   * Activity:
     * ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams)
@@ -74,10 +74,10 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/philippemerle/KubeDiagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams)
   * Implementation: Python with Diagrams
-  * Input formats: K8s manifests, kustomization files, Helm charts, and K8s API
+  * Input formats: K8s manifests, kustomization files, Helm charts, helmfiles, and K8s API
   * 47 Kubernetes resource kinds supported
   * KIS supported
-  * Output formats: PNG, JPG, SVG, PDF, and DOT
+  * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, and DOT
 
 * **KubeView**: [https://github.com/benc-uk/kubeview](https://github.com/benc-uk/kubeview)
   * Kubernetes cluster visualiser and graphical explorer
