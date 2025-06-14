@@ -107,6 +107,20 @@
   * KIS supported
   * Output formats: Web pages
 
+* **kubectl-graph**: [https://github.com/steveteuber/kubectl-graph](https://github.com/steveteuber/kubectl-graph)
+  * A kubectl plugin to visualize Kubernetes resources and relationships
+  * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/steveteuber/kubectl-graph)
+  * Activity:
+    * ![GitHub Created At](https://img.shields.io/github/created-at/steveteuber/kubectl-graph)
+    * ![GitHub last commit](https://img.shields.io/github/last-commit/steveteuber/kubectl-graph?style=flat)
+    * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/steveteuber/kubectl-graph)
+    * ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph)
+  * Implementation: Go
+  * Input formats: K8s API
+  * All Kubernetes resources supported
+  * KIS unsupported
+  * Output formats: AQL, ArangoDB, CQL, Cypher, DOT, and Mermaid
+
 * **k8sviz**: [https://github.com/mkimuram/k8sviz](https://github.com/mkimuram/k8sviz)
   * Generate Kubernetes architecture diagrams from the actual state in a namespace
   * Popularity: ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz)
@@ -380,6 +394,7 @@
 | :--------: | :-------: | :-------: | :-------: |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">47+</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | **14** | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | **<span style="color:green">All</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/steveteuber/kubectl-graph) ![GitHub last commit](https://img.shields.io/github/last-commit/steveteuber/kubectl-graph?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph) | ![GitHub Repo stars](https://img.shields.io/github/stars/steveteuber/kubectl-graph?style=flat&color=%2300FF00) |
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | ![GitHub Created At](https://img.shields.io/github/created-at/grucloud/grucloud) ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud) | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) |
@@ -396,7 +411,7 @@
 
 ### Popularity History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/KubeDiagrams,benc-uk/kubeview,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#benc-uk/kubeview&philippemerle/KubeDiagrams&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/KubeDiagrams,benc-uk/kubeview,steveteuber/kubectl-graph,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#philippemerle/KubeDiagrams&benc-uk/kubeview&steveteuber/kubectl-graph&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
 
 ### Activity Timeline
 
