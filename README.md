@@ -117,7 +117,16 @@
     * ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph)
   * Implementation: Go
   * Input formats: K8s API
-  * All Kubernetes resources supported
+  * Supported Kubernetes resources
+    * Namespace
+    * Pod
+    * Endpoints
+    * Service
+    * Node
+    * Ingress
+    * NetworkPolicy
+    * Route
+    * any other kinds
   * KIS unsupported
   * Output formats: AQL, ArangoDB, CQL, Cypher, DOT, and Mermaid
 
@@ -394,7 +403,7 @@
 | :--------: | :---: |  :-------: | :-------: | :-------: |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">47+</span>** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | **14** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
-| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | **<span style="color:green">All</span>** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/steveteuber/kubectl-graph) ![GitHub last commit](https://img.shields.io/github/last-commit/steveteuber/kubectl-graph?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph) | ![GitHub Repo stars](https://img.shields.io/github/stars/steveteuber/kubectl-graph?style=flat&color=%2300FF00) |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | **<span style="color:green">8+</span>** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/steveteuber/kubectl-graph) ![GitHub last commit](https://img.shields.io/github/last-commit/steveteuber/kubectl-graph?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph) | ![GitHub Repo stars](https://img.shields.io/github/stars/steveteuber/kubectl-graph?style=flat&color=%2300FF00) |
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/grucloud/grucloud) ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud) | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) |
