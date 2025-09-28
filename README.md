@@ -547,7 +547,7 @@
 #### By Output Formats
 
 | Tool | KIS Support | DOT | GIF | JPG | PNG | PDF | SVG | TIFF | Others |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X | X | X | X | X | X | Web |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | X | | | | | | | | Web |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | X | | | | | | | AQL, ArangoDB, CQL, Cypher, and Mermaid |
