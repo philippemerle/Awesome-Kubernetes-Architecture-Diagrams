@@ -534,13 +534,13 @@
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | ![GitHub Repo license](https://img.shields.io/github/license/B0nam/kubedraw) |
 | **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | no open source license |
 
-| License | #Tools |
-| :---: | :---: |
-| ![GitHub Repo license](https://img.shields.io/github/license/benc-uk/kubeview) | **7** |
-| ![GitHub Repo license](https://img.shields.io/github/license/philippemerle/KubeDiagrams) | **6** |
-| ![GitHub Repo license](https://img.shields.io/github/license/grucloud/grucloud) | **2** |
-| ![GitHub Repo license](https://img.shields.io/github/license/SocialGouv/react-k8s-viewer) | **1** |
-| no open source license | **1** |
+| License | #Tools | %Tools |
+| :---: | :---: | :---: |
+| ![GitHub Repo license](https://img.shields.io/github/license/benc-uk/kubeview) | **7** | **41.18%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/philippemerle/KubeDiagrams) | **6** | **35.29%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/grucloud/grucloud) | **2** | **11.76%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/SocialGouv/react-k8s-viewer) | **1** | **5.88%** |
+| no open source license | **1** | **5.88%** |
 
 #### By Popularity
 
@@ -607,7 +607,15 @@
 | **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | X | | | | | 1 |
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | | | | 1 |
 | **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | | X | | X | | 2 |
-| **Total** | **10** | **7** | **1** | **3** | **1** |
+
+| Input Format | #Tools | %Tools |
+| :---: | :---: | :---: |
+| **K8s API** | **10** | **58.82%** |
+| **K8s Manifest** | **7** | **41.18%** |
+| **Helm Chart** | **3** | **17.65%** |
+| **Kustomization File** | **1** | **5.88%** |
+| **Helmfile** | **1** | **5.88%** |
+| **JavaScript IaC** | **1** | **5.88%** |
 
 #### By K8s Kinds
 
@@ -630,7 +638,39 @@
 | **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | **8** | | | | X | | | X | | | | X | X | | | | | X | | X | | | | X | | X | | |
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | **5** | | | | | | | X | | | X | | X | | | | | X | | | | | | X | | | | |
 | **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | **9** | X | | | X | | X | X | | | X | X | | | | | | X | | | | | X | X | | | | |
-| **Total** | | **8** | **2** | **2** | **8** | **1** | **7** | **13** | **4** | **3** | **14** | **7** | **9** | **3** | **2** | **3** | **7** | **14** | **1** | **6** | **2** | **2** | **8** | **16** | **2** | **9** | **1** | |
+
+| Kind | #Tools | %Tools |
+| :---: | :---: | :---: |
+| **Service** | **16** | **94.12%** |
+| **Ingress** | **14** | **82.35%** |
+| **Pod** | **14** | **82.35%** |
+| **Deployment** | **13** | **76.47%** |
+| **Namespace** | **9** | **52.94%** |
+| **StatefulSet** | **9** | **52.94%** |
+| **ConfigMap** | **8** | **47.06%** |
+| **CronJob** | **8** | **47.06%** |
+| **Secret** | **8** | **47.06%** |
+| **DaemonSet** | **7** | **41.18%** |
+| **Job** | **7** | **41.18%** |
+| **PersistentVolumeClaim** | **7** | **41.18%** |
+| **ReplicaSet** | **6** | **35.29%** |
+| **Endpoints** | **4** | **23.53%** |
+| **HorizontalPodAutoscaler** | **3** | **17.65%** |
+| **NetworkPolicy** | **3** | **17.65%** |
+| **PersistentVolume** | **3** | **17.65%** |
+| **ClusterRole** | **2** | **11.76%** |
+| **ClusterRoleBinding** | **2** | **11.76%** |
+| **Node** | **2** | **11.76%** |
+| **Role** | **2** | **11.76%** |
+| **RoleBinding** | **2** | **11.76%** |
+| **Route** | **2** | **11.76%** |
+| **ServiceAccount** | **2** | **11.76%** |
+| **ServiceMonitor** | **2** | **11.76%** |
+| **CustomResourceDefinition** | **1** | **5.88%** |
+| **DeploymentConfig** | **1** | **5.88%** |
+| **PodSecurityPolicy** | **1** | **5.88%** |
+| **SealedSecret** | **1** | **5.88%** |
+| **StorageClass** | **1** | **5.88%** |
 
 #### By Output Formats
 
@@ -653,7 +693,28 @@
 | **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | X | | | | X | | | | |
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | | | X | | | | |
 | **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | X | | | | X | | | | |
-| **Total** | **12** | **6** | **2** | **4** | **9** | **4** | **4** | **3** |
+
+|  | #Tools | %Tools |
+| :---: | :---: | :---: |
+| **KIS Support** | **12** | **70.59%** |
+
+| Output Format | #Tools | %Tools |
+| :---: | :---: | :---: |
+| **PNG** | **9** | **52.94%** |
+| **DOT** | **6** | **35.29%** |
+| **JPG** | **4** | **23.53%** |
+| **PDF** | **4** | **23.53%** |
+| **SVG** | **4** | **23.53%** |
+| **Web** (incl. React Flow) | **4** | **23.53%** |
+| **TIFF** | **3** | **17.65%** |
+| **GIF** | **2** | **11.76%** |
+| **PlantUML** | **2** | **11.76%** |
+| **AQL** | **1** | **5.88%** |
+| **ArangoDB** | **1** | **5.88%** |
+| **CQL** | **1** | **5.88%** |
+| **Cypher** | **1** | **5.88%** |
+| **Mermaid** | **1** | **5.88%** |
+| **XML for draw.io** | **1** | **5.88%** |
 
 ### Popularity History
 
