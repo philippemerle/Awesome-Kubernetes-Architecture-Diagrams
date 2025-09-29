@@ -698,3 +698,7 @@
 * [Visualizing Kubernetes Distributed Systems: An Exploratory Study](https://ieeexplore.ieee.org/document/10350136), D. G. Balreira, T. da Silva Araújo and F. Petrillo, 2023 IEEE Working Conference on Software Visualization (VISSOFT), Bogotá, Colombia, 2023, pp. 12-22, doi: 10.1109/VISSOFT60811.2023.00011.
 
 * [Cloud architecture tools](https://cloudarchitecture.tools/)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/Awesome-Kubernetes-Architecture-Diagrams&type=Date)](https://www.star-history.com/#philippemerle/Awesome-Kubernetes-Architecture-Diagrams&Date)
