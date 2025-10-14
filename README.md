@@ -85,7 +85,7 @@
     * ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat)
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/philippemerle/KubeDiagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams)
-  * Implementation: Python with Diagrams
+  * Implementation: Python with Diagrams, and JavaScript
   * Input formats: K8s manifests, kustomization files, Helm charts, helmfiles, and K8s API
   * 47+ Kubernetes resource kinds supported
   * KIS supported
@@ -102,7 +102,7 @@
     * ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat)
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/benc-uk/kubeview)
     * ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview)
-  * Implementation: Vue and Go
+  * Implementation: JavaScript and Go
   * Input formats: K8s API
   * Supported Kubernetes resources
     * ConfigMap
@@ -585,6 +585,37 @@
 | **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | ![GitHub Created At](https://img.shields.io/github/created-at/MrSir/k8s_diagram) | ![GitHub last commit](https://img.shields.io/github/last-commit/MrSir/k8s_diagram?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/MrSir/k8s_diagram) | ![GitHub contributors](https://img.shields.io/github/contributors/MrSir/k8s_diagram) |
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | ![GitHub Created At](https://img.shields.io/github/created-at/B0nam/kubedraw) | ![GitHub last commit](https://img.shields.io/github/last-commit/B0nam/kubedraw?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/B0nam/kubedraw) | ![GitHub contributors](https://img.shields.io/github/contributors/B0nam/kubedraw) |
 | **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | no data | no data | no data | no data |
+
+#### By Implementation Language
+
+| Tool | Implementation Language |
+| :---: | :---: |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | Python and JavaScript |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | JavaScript and Go |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | Go |
+| **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | TypeScript |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | Go |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | Go |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | JavaScript |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | Go |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | TypeScript |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | Python |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | Python |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | Java |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | Python |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | Go |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | Python |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | Python |
+| **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | Unknown |
+
+| Implementation Language | #Tools | %Tools |
+| :---: | :---: | :---: |
+| Python | **6** | **35,29%** |
+| Go | **6** | **35,29%** |
+| JavaScript | **3** | **17,65%** |
+| TypeScript | **2** | **11,76%** |
+| Java | **1** | **5,88%** |
+| Unknown | **1** | **5,88%** |
 
 #### By Input Formats
 
