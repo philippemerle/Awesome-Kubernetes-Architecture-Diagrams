@@ -86,6 +86,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/philippemerle/KubeDiagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams)
   * Implementation: Python with Diagrams, and JavaScript
+  * Usage mode: CLI, GUI, and SaaS
   * Input formats: K8s manifests, kustomization files, Helm charts, helmfiles, and K8s API
   * 47+ Kubernetes resource kinds supported
   * KIS supported
@@ -103,6 +104,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/benc-uk/kubeview)
     * ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview)
   * Implementation: JavaScript and Go
+  * Usage mode: GUI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * ConfigMap
@@ -134,6 +136,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/steveteuber/kubectl-graph)
     * ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph)
   * Implementation: Go
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * Endpoints
@@ -160,6 +163,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/nevalla/lens-resource-map-extension)
     * ![GitHub contributors](https://img.shields.io/github/contributors/nevalla/lens-resource-map-extension)
   * Implementation: TypeScript
+  * Usage mode: GUI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * ConfigMap
@@ -186,6 +190,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/mkimuram/k8sviz)
     * ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz)
   * Implementation: Go and Graphviz
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * CronJob
@@ -215,6 +220,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/trois-six/k8s-diagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams)
   * Implementation: Go
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * DaemonSet
@@ -240,6 +246,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/grucloud/grucloud)
     * ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud)
   * Implementation: JavaScript
+  * Usage mode: CLI
   * Input formats: JavaScript IaC
   * Supported Kubernetes resources
     * ConfigMap
@@ -271,6 +278,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kocierik/k8s-to-diagram)
     * ![GitHub contributors](https://img.shields.io/github/contributors/kocierik/k8s-to-diagram)
   * Implementation: Go and D2
+  * Usage mode: CLI
   * Input formats: K8s manifest annotations
   * Supported Kubernetes resources
     * ConfigMap
@@ -297,6 +305,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/SocialGouv/react-k8s-viewer)
     * ![GitHub contributors](https://img.shields.io/github/contributors/SocialGouv/react-k8s-viewer)
   * Implementation: TypeScript
+  * Usage mode: GUI
   * Input formats: K8s manifests
   * Supported Kubernetes resources
     * ConfigMap
@@ -323,6 +332,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jimmymills/k8s-diagram-previewer)
     * ![GitHub contributors](https://img.shields.io/github/contributors/jimmymills/k8s-diagram-previewer)
   * Implementation: Python with Diagrams
+  * Usage mode: CLI
   * Input formats: K8s manifests and Helm charts
   * Supported Kubernetes resources
     * ConfigMap
@@ -351,6 +361,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/imjoseangel/k8s-diagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/imjoseangel/k8s-diagrams)
   * Implementation: Python with Diagrams
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * Deployment
@@ -376,6 +387,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kahowell/kube-diagram)
     * ![GitHub contributors](https://img.shields.io/github/contributors/kahowell/kube-diagram)
   * Implementation: Java
+  * Usage mode: CLI
   * Input formats: K8s manifests
   * Supported Kubernetes resources:
     * CronJob
@@ -396,6 +408,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/sunny10031982/kube-diagrams)
     * ![GitHub contributors](https://img.shields.io/github/contributors/sunny10031982/kube-diagrams)
   * Implementation: Python with Diagrams
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * Ingress
@@ -416,6 +429,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/NickSchleicher/k8d)
     * ![GitHub contributors](https://img.shields.io/github/contributors/NickSchleicher/k8d)
   * Implementation: Go
+  * Usage mode: CLI
   * Input formats: K8s API
   * Supported Kubernetes resources
     * NetworkPolicy
@@ -435,6 +449,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/MrSir/k8s_diagram)
     * ![GitHub contributors](https://img.shields.io/github/contributors/MrSir/k8s_diagram)
   * Implementation: Python
+  * Usage mode: None
   * Input formats: K8s API
   * Kubernetes resources supported
     * CronJob
@@ -460,6 +475,7 @@
     * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/B0nam/kubedraw)
     * ![GitHub contributors](https://img.shields.io/github/contributors/B0nam/kubedraw)
   * Implementation: Python with Diagrams
+  * Usage mode: CLI
   * Input formats: K8s API
   * Kubernetes resources supported
     * Deployment
@@ -476,6 +492,7 @@
   * Popularity: no data available
   * Activity: no data available
   * Implementation: Diagrams
+  * Usage mode: SaaS
   * Input formats: K8s manifests and Helm charts
   * Kubernetes resources supported
     * ConfigMap
@@ -616,6 +633,34 @@
 | TypeScript | **2** | **11,76%** |
 | Java | **1** | **5,88%** |
 | Unknown | **1** | **5,88%** |
+
+#### By Usage Mode
+
+| Tool | CLI | GUI | SaaS |
+| :---: | :---: | :---: | :---: |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | | X | |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | X | | |
+| **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | | X | |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | | |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | | |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | X | | |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | X | | |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | X | |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | | |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | X | | |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | X | | |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | X | | |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | X | | |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | | | |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | |
+| **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | | | X |
+
+| Usage Mode | #Tools | %Tools |
+| :---: | :---: | :---: |
+| CLI | **12** | **70,59%** |
+| GUI | **4** | **23,53%** |
+| SaaS | **2** | **11,76%** |
 
 #### By Input Formats
 
