@@ -590,8 +590,8 @@
 
 | Tool | Implementation Language |
 | :---: | :---: |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | Python and JavaScript |
-| **[KubeView](https://github.com/benc-uk/kubeview)** | JavaScript and Go |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | Python |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | JavaScript |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | Go |
 | **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | TypeScript |
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | Go |
@@ -611,8 +611,8 @@
 | Implementation Language | #Tools | %Tools |
 | :---: | :---: | :---: |
 | Python | **6** | **35,29%** |
-| Go | **6** | **35,29%** |
-| JavaScript | **3** | **17,65%** |
+| Go | **5** | **29,41%** |
+| JavaScript | **2** | **11,76%** |
 | TypeScript | **2** | **11,76%** |
 | Java | **1** | **5,88%** |
 | Unknown | **1** | **5,88%** |
