@@ -627,12 +627,12 @@
 
 | Implementation Language | #Tools | %Tools |
 | :---: | :---: | :---: |
-| Python | **6** | **35,29%** |
-| Go | **5** | **29,41%** |
-| JavaScript | **2** | **11,76%** |
-| TypeScript | **2** | **11,76%** |
-| Java | **1** | **5,88%** |
-| Unknown | **1** | **5,88%** |
+| Python | **6** | **35.29%** |
+| Go | **5** | **29.41%** |
+| JavaScript | **2** | **11.76%** |
+| TypeScript | **2** | **11.76%** |
+| Java | **1** | **5.88%** |
+| Unknown | **1** | **5.88%** |
 
 #### By Usage Mode
 
@@ -658,9 +658,9 @@
 
 | Usage Mode | #Tools | %Tools |
 | :---: | :---: | :---: |
-| CLI | **12** | **70,59%** |
-| GUI | **4** | **23,53%** |
-| SaaS | **2** | **11,76%** |
+| CLI | **12** | **70.59%** |
+| GUI | **4** | **23.53%** |
+| SaaS | **2** | **11.76%** |
 
 #### By Input Formats
 
@@ -678,7 +678,7 @@
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | | X | | X | | 2 |
 | **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | X | | | | | 1 |
 | **[kube-diagram](https://github.com/kahowell/kube-diagram)** | | X | | | | 1 |
-| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | | X | | | | 1 |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | X | | | | | 1 |
 | **[k8d](https://github.com/NickSchleicher/k8d)** | X | | | | | 1 |
 | **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | X | | | | | 1 |
 | **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | | | | 1 |
@@ -686,8 +686,8 @@
 
 | Input Format | #Tools | %Tools |
 | :---: | :---: | :---: |
-| **K8s API** | **10** | **58.82%** |
-| **K8s Manifest** | **7** | **41.18%** |
+| **K8s API** | **11** | **64.71%** |
+| **K8s Manifest** | **6** | **35.29%** |
 | **Helm Chart** | **3** | **17.65%** |
 | **Kustomization File** | **1** | **5.88%** |
 | **Helmfile** | **1** | **5.88%** |
