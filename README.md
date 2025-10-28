@@ -792,6 +792,93 @@
 | **Mermaid** | **1** | **5.88%** |
 | **XML for draw.io** | **1** | **5.88%** |
 
+### Comparing generated diagrams
+
+Following generated diagrams are based on the **[official Kubernetes WordPress tutorial](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)**.
+See the used **[WordPress](wordpress-manifest.yaml)** manifest.
+
+#### **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)**
+
+Architecture diagram generated from the **[WordPress](wordpress-manifest.yaml)** manifest:
+
+[![diagram](images/wordpress-manifest-KubeDiagrams.png)](images/wordpress-manifest-KubeDiagrams.png)
+
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-KubeDiagrams.png)](images/wordpress-KubeDiagrams.png)
+
+#### **[KubeView](https://github.com/benc-uk/kubeview)**
+
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-KubeView.png)](images/wordpress-KubeView.png)
+
+#### **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)**
+
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-kubectl-graph.png)](images/wordpress-kubectl-graph.png)
+
+#### **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)**
+
+**TODO**
+
+#### **[k8sviz](https://github.com/mkimuram/k8sviz)**
+
+**TODO**
+
+#### **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)**
+
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-k8s-diagrams.png)](images/wordpress-k8s-diagrams.png)
+
+#### **[GruCloud](https://github.com/grucloud/grucloud)**
+
+**TODO**
+
+#### **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)**
+
+**TODO**
+
+#### **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)**
+
+**TODO**
+
+#### **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)**
+
+**TODO**
+
+#### **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)**
+
+**TODO**
+
+#### **[kube-diagram](https://github.com/kahowell/kube-diagram)**
+
+**TODO**
+
+#### **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)**
+
+**TODO**
+
+#### **[k8d](https://github.com/NickSchleicher/k8d)**
+
+**TODO**
+
+#### **[k8s_diagram](https://github.com/MrSir/k8s_diagram)**
+
+**TODO**
+
+#### **[KubeDraw](https://github.com/B0nam/kubedraw)**
+
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-KubeDraw.png)](images/wordpress-KubeDraw.png)
+
+#### **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)**
+
+**TODO**
+
 ### Popularity History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/KubeDiagrams,benc-uk/kubeview,steveteuber/kubectl-graph,nevalla/lens-resource-map-extension,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#philippemerle/KubeDiagrams&benc-uk/kubeview&steveteuber/kubectl-graph&nevalla/lens-resource-map-extension&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
