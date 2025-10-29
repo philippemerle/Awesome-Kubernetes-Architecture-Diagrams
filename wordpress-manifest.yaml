@@ -32,6 +32,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  replicas: 1 # Required by K8s Diagram Previewer!
   selector:
     matchLabels:
       app: wordpress
@@ -117,6 +118,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  replicas: 1 # Required by K8s Diagram Previewer!
   selector:
     matchLabels:
       app: wordpress
