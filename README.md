@@ -849,7 +849,7 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 #### **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)**
 
-Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+Architecture diagram generated from the **[WordPress](wordpress-manifest.yaml)** manifest:
 
 [![diagram](images/wordpress-k8s-diagram.png)](images/wordpress-k8s-diagram.png)
 
