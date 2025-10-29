@@ -825,7 +825,9 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 #### **[k8sviz](https://github.com/mkimuram/k8sviz)**
 
-**TODO**
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-k8sviz.png)](images/wordpress-k8sviz.png)
 
 #### **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)**
 
