@@ -835,11 +835,11 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 #### **[GruCloud](https://github.com/grucloud/grucloud)**
 
-**TODO**
+**TODO** but requires rewriting the [WordPress manifest](wordpress-manifest.yaml) with [GruCloud](https://github.com/grucloud/grucloud)'s JavaScript-based DSL!
 
 #### **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)**
 
-**TODO**
+**TODO** but requires annotating the [WordPress manifest](wordpress-manifest.yaml) with [K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram) annotations!
 
 #### **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)**
 
@@ -877,7 +877,7 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 #### **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)**
 
-**TODO**
+**TODO** but the [Kubeviz](https://kubeviz.bitfoundry.co) site appears to be down!
 
 ### Popularity History
 
