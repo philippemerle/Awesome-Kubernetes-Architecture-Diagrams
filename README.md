@@ -365,7 +365,7 @@
   * Input formats: K8s API
   * Supported Kubernetes resources
     * Deployment
-    * Endpoint
+    * Endpoints
     * HorizontalPodAutoscaler
     * Ingress
     * Namespace
@@ -496,7 +496,7 @@
   * Input formats: K8s manifests and Helm charts
   * Kubernetes resources supported
     * ConfigMap
-    * Cronjob
+    * CronJob
     * DaemonSet
     * Deployment
     * Ingress
