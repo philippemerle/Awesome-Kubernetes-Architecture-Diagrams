@@ -821,7 +821,9 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 #### **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)**
 
-**TODO**
+Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
+
+[![diagram](images/wordpress-freelens-resource-map.png)](images/wordpress-freelens-resource-map.png)
 
 #### **[k8sviz](https://github.com/mkimuram/k8sviz)**
 
