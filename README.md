@@ -266,6 +266,38 @@
   * KIS unsupported
   * Output formats: PlantUML
 
+  * **k8s-to-mermaid**: [https://github.com/sommerit/k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)
+    * This script parses Kubernetes YAML files and generates a Mermaid class diagram that visualizes the resources and their relationships within a Kubernetes cluster
+    * ![License]( https://img.shields.io/github/license/sommerit/k8s-to-mermaid)
+    * Popularity:
+      * ![GitHub Repo stars](https://img.shields.io/github/stars/sommerit/k8s-to-mermaid)
+      * ![GitHub Repo forks](https://img.shields.io/github/forks/sommerit/k8s-to-mermaid)
+    * Activity:
+      * ![GitHub Created At](https://img.shields.io/github/created-at/sommerit/k8s-to-mermaid)
+      * ![GitHub last commit](https://img.shields.io/github/last-commit/sommerit/k8s-to-mermaid?style=flat)
+      * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/sommerit/k8s-to-mermaid)
+      * ![GitHub contributors](https://img.shields.io/github/contributors/sommerit/k8s-to-mermaid)
+    * Implementation: Python
+    * Usage mode: CLI
+    * Input formats: K8s manifests
+    * Supported Kubernetes resources
+      * ConfigMap
+      * CronJob
+      * DaemonSet
+      * Deployment
+      * HorizontalPodAutoscaler
+      * Ingress
+      * Job
+      * NetworkPolicy
+      * PersistentVolumeClaim
+      * Pod
+      * ReplicaSet
+      * Secret
+      * Service
+      * StatefulSet
+    * KIS unsupported
+    * Output formats: Mermaid
+
 * **K8s Diagram architecture generator**: [https://github.com/kocierik/k8s-to-diagram](https://github.com/kocierik/k8s-to-diagram)
   * Generate a diagram architecture from kubernetes manifests
   * ![License]( https://img.shields.io/github/license/kocierik/k8s-to-diagram)
@@ -518,6 +550,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |  ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/grucloud/grucloud) ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud) | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | **14** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/sommerit/k8s-to-mermaid) ![GitHub last commit](https://img.shields.io/github/last-commit/sommerit/k8s-to-mermaid?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/sommerit/k8s-to-mermaid) | ![GitHub Repo stars](https://img.shields.io/github/stars/sommerit/k8s-to-mermaid?style=flat&color=%2300FF00) |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/kocierik/k8s-to-diagram) ![GitHub last commit](https://img.shields.io/github/last-commit/kocierik/k8s-to-diagram?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/kocierik/k8s-to-diagram) | ![GitHub Repo stars](https://img.shields.io/github/stars/kocierik/k8s-to-diagram?style=flat) |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **9** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/SocialGouv/react-k8s-viewer) ![GitHub last commit](https://img.shields.io/github/last-commit/SocialGouv/react-k8s-viewer?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/SocialGouv/react-k8s-viewer) | ![GitHub Repo stars](https://img.shields.io/github/stars/SocialGouv/react-k8s-viewer?style=flat) |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/jimmymills/k8s-diagram-previewer) ![GitHub last commit](https://img.shields.io/github/last-commit/jimmymills/k8s-diagram-previewer?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/jimmymills/k8s-diagram-previewer) | ![GitHub Repo stars](https://img.shields.io/github/stars/jimmymills/k8s-diagram-previewer?style=flat) |
@@ -540,6 +573,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | ![GitHub Repo license](https://img.shields.io/github/license/mkimuram/k8sviz) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | ![GitHub Repo license](https://img.shields.io/github/license/trois-six/k8s-diagrams) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | ![GitHub Repo license](https://img.shields.io/github/license/grucloud/grucloud) |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | ![GitHub Repo license](https://img.shields.io/github/license/sommerit/k8s-to-mermaid) |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | ![GitHub Repo license](https://img.shields.io/github/license/kocierik/k8s-to-diagram) |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | ![GitHub Repo license](https://img.shields.io/github/license/SocialGouv/react-k8s-viewer) |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | ![GitHub Repo license](https://img.shields.io/github/license/jimmymills/k8s-diagram-previewer) |
@@ -553,11 +587,11 @@
 
 | License | #Tools | %Tools |
 | :---: | :---: | :---: |
-| ![GitHub Repo license](https://img.shields.io/github/license/benc-uk/kubeview) | **7** | **41.18%** |
-| ![GitHub Repo license](https://img.shields.io/github/license/philippemerle/KubeDiagrams) | **6** | **35.29%** |
-| ![GitHub Repo license](https://img.shields.io/github/license/grucloud/grucloud) | **2** | **11.76%** |
-| ![GitHub Repo license](https://img.shields.io/github/license/SocialGouv/react-k8s-viewer) | **1** | **5.88%** |
-| no open source license | **1** | **5.88%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/benc-uk/kubeview) | **7** | **38.89%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/philippemerle/KubeDiagrams) | **6** | **33.33%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/grucloud/grucloud) | **2** | **11.11%** |
+| ![GitHub Repo license](https://img.shields.io/github/license/SocialGouv/react-k8s-viewer) | **2** | **11.11%** |
+| no open source license | **1** | **5.56%** |
 
 #### By Popularity
 
@@ -570,6 +604,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | ![GitHub Repo stars](https://img.shields.io/github/stars/mkimuram/k8sviz?style=flat&color=%2300FF00) | ![GitHub Repo forks](https://img.shields.io/github/forks/mkimuram/k8sviz) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | ![GitHub Repo stars](https://img.shields.io/github/stars/trois-six/k8s-diagrams?style=flat&color=%2300FF00) | ![GitHub Repo forks](https://img.shields.io/github/forks/trois-six/k8s-diagrams) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | ![GitHub Repo stars](https://img.shields.io/github/stars/grucloud/grucloud?style=flat&color=%2300FF00) | ![GitHub Repo forks](https://img.shields.io/github/forks/grucloud/grucloud) |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | ![GitHub Repo stars](https://img.shields.io/github/stars/sommerit/k8s-to-mermaid?style=flat) | ![GitHub Repo forks](https://img.shields.io/github/forks/sommerit/k8s-to-mermaid) |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | ![GitHub Repo stars](https://img.shields.io/github/stars/kocierik/k8s-to-diagram?style=flat) | ![GitHub Repo forks](https://img.shields.io/github/forks/kocierik/k8s-to-diagram) |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | ![GitHub Repo stars](https://img.shields.io/github/stars/SocialGouv/react-k8s-viewer?style=flat) | ![GitHub Repo forks](https://img.shields.io/github/forks/SocialGouv/react-k8s-viewer) |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | ![GitHub Repo stars](https://img.shields.io/github/stars/jimmymills/k8s-diagram-previewer?style=flat) | ![GitHub Repo forks](https://img.shields.io/github/forks/jimmymills/k8s-diagram-previewer) |
@@ -592,6 +627,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | ![GitHub Created At](https://img.shields.io/github/created-at/mkimuram/k8sviz) | ![GitHub last commit](https://img.shields.io/github/last-commit/mkimuram/k8sviz?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/mkimuram/k8sviz) | ![GitHub contributors](https://img.shields.io/github/contributors/mkimuram/k8sviz) |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | ![GitHub Created At](https://img.shields.io/github/created-at/trois-six/k8s-diagrams) | ![GitHub last commit](https://img.shields.io/github/last-commit/trois-six/k8s-diagrams?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/trois-six/k8s-diagrams) | ![GitHub contributors](https://img.shields.io/github/contributors/trois-six/k8s-diagrams) |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | ![GitHub Created At](https://img.shields.io/github/created-at/grucloud/grucloud) | ![GitHub last commit](https://img.shields.io/github/last-commit/grucloud/grucloud?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/grucloud/grucloud) | ![GitHub contributors](https://img.shields.io/github/contributors/grucloud/grucloud) |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | ![GitHub Created At](https://img.shields.io/github/created-at/sommerit/k8s-to-mermaid) | ![GitHub last commit](https://img.shields.io/github/last-commit/sommerit/k8s-to-mermaid?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/sommerit/k8s-to-mermaid) | ![GitHub contributors](https://img.shields.io/github/contributors/sommerit/k8s-to-mermaid) |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | ![GitHub Created At](https://img.shields.io/github/created-at/kocierik/k8s-to-diagram) | ![GitHub last commit](https://img.shields.io/github/last-commit/kocierik/k8s-to-diagram?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kocierik/k8s-to-diagram) | ![GitHub contributors](https://img.shields.io/github/contributors/kocierik/k8s-to-diagram) |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | ![GitHub Created At](https://img.shields.io/github/created-at/SocialGouv/react-k8s-viewer) | ![GitHub last commit](https://img.shields.io/github/last-commit/SocialGouv/react-k8s-viewer?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/SocialGouv/react-k8s-viewer) | ![GitHub contributors](https://img.shields.io/github/contributors/SocialGouv/react-k8s-viewer) |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | ![GitHub Created At](https://img.shields.io/github/created-at/jimmymills/k8s-diagram-previewer) | ![GitHub last commit](https://img.shields.io/github/last-commit/jimmymills/k8s-diagram-previewer?style=flat) | ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/jimmymills/k8s-diagram-previewer) | ![GitHub contributors](https://img.shields.io/github/contributors/jimmymills/k8s-diagram-previewer) |
@@ -614,6 +650,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | Go |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | Go |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | JavaScript |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | Python |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | Go |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | TypeScript |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | Python |
@@ -627,12 +664,12 @@
 
 | Implementation Language | #Tools | %Tools |
 | :---: | :---: | :---: |
-| Python | **6** | **35.29%** |
-| Go | **5** | **29.41%** |
-| JavaScript | **2** | **11.76%** |
-| TypeScript | **2** | **11.76%** |
-| Java | **1** | **5.88%** |
-| Unknown | **1** | **5.88%** |
+| Python | **7** | **38.89%** |
+| Go | **5** | **27.78%** |
+| JavaScript | **2** | **11.11%** |
+| TypeScript | **2** | **11.11%** |
+| Java | **1** | **5.56%** |
+| Unknown | **1** | **5.56%** |
 
 #### By Usage Mode
 
@@ -645,6 +682,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | | |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | | |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | X | | |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | X | | |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | X | | |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | X | |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | | |
@@ -658,9 +696,9 @@
 
 | Usage Mode | #Tools | %Tools |
 | :---: | :---: | :---: |
-| CLI | **12** | **70.59%** |
-| GUI | **4** | **23.53%** |
-| SaaS | **2** | **11.76%** |
+| CLI | **13** | **72.22%** |
+| GUI | **4** | **22.22%** |
+| SaaS | **2** | **11.11%** |
 
 #### By Input Formats
 
@@ -673,6 +711,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | | | | | 1 |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | | | | | 1 |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | | | | | | 1 (JavaScript IaC) |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | | X | | | | 1 |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | | annotations | | | | 1 |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | X | | | | 1 |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | | X | | X | | 2 |
@@ -686,12 +725,12 @@
 
 | Input Format | #Tools | %Tools |
 | :---: | :---: | :---: |
-| **K8s API** | **11** | **64.71%** |
-| **K8s Manifest** | **6** | **35.29%** |
-| **Helm Chart** | **3** | **17.65%** |
-| **Kustomization File** | **1** | **5.88%** |
-| **Helmfile** | **1** | **5.88%** |
-| **JavaScript IaC** | **1** | **5.88%** |
+| **K8s API** | **11** | **61.11%** |
+| **K8s Manifest** | **7** | **38.89%** |
+| **Helm Chart** | **3** | **16.67%** |
+| **Kustomization File** | **1** | **5.56%** |
+| **Helmfile** | **1** | **5.56%** |
+| **JavaScript IaC** | **1** | **5.56%** |
 
 #### By K8s Kinds
 
@@ -704,6 +743,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | **12** | | | | X | | X | X | | X | X | X | X | | | | X | X | | X | | | | X | | X | | |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | **8** | | | | | | X | X | | | X | | X | | | | | X | | X | | | | X | | X | | |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | **14** | X | X | X | | | | X | | | X | | X | | | X | X | | |  | X | X | X | X | X | X | | |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | **14** | X | | | X | | X | X | | X | X | X | | X | | | X | X | | X | | | X | X | | X | | |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | **9** | X | | | | | | X | | | X | | | | | X | X | X | | | | | X | X | | X | | |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | **9** | X | | | X | | | X | | | X | X | | | | | | | | | | | X | X | | | | SealedSecret ServiceMonitor |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | **11** | X | | | X | | X | X | | | X | X | | | | | X | X | | | | | X | X | | X | | |
@@ -717,36 +757,36 @@
 
 | Kind | #Tools | %Tools |
 | :---: | :---: | :---: |
-| **Service** | **16** | **94.12%** |
-| **Ingress** | **14** | **82.35%** |
-| **Pod** | **14** | **82.35%** |
-| **Deployment** | **13** | **76.47%** |
-| **Namespace** | **9** | **52.94%** |
-| **StatefulSet** | **9** | **52.94%** |
-| **ConfigMap** | **8** | **47.06%** |
-| **CronJob** | **8** | **47.06%** |
-| **Secret** | **8** | **47.06%** |
-| **DaemonSet** | **7** | **41.18%** |
-| **Job** | **7** | **41.18%** |
-| **PersistentVolumeClaim** | **7** | **41.18%** |
-| **ReplicaSet** | **6** | **35.29%** |
-| **Endpoints** | **4** | **23.53%** |
-| **HorizontalPodAutoscaler** | **3** | **17.65%** |
-| **NetworkPolicy** | **3** | **17.65%** |
-| **PersistentVolume** | **3** | **17.65%** |
-| **ClusterRole** | **2** | **11.76%** |
-| **ClusterRoleBinding** | **2** | **11.76%** |
-| **Node** | **2** | **11.76%** |
-| **Role** | **2** | **11.76%** |
-| **RoleBinding** | **2** | **11.76%** |
-| **Route** | **2** | **11.76%** |
-| **ServiceAccount** | **2** | **11.76%** |
-| **ServiceMonitor** | **2** | **11.76%** |
-| **CustomResourceDefinition** | **1** | **5.88%** |
-| **DeploymentConfig** | **1** | **5.88%** |
-| **PodSecurityPolicy** | **1** | **5.88%** |
-| **SealedSecret** | **1** | **5.88%** |
-| **StorageClass** | **1** | **5.88%** |
+| **Service** | **17** | **94.44%** |
+| **Ingress** | **15** | **83.33%** |
+| **Pod** | **15** | **83.33%** |
+| **Deployment** | **14** | **77.78%** |
+| **StatefulSet** | **10** | **55.56%** |
+| **ConfigMap** | **9** | **50.00%** |
+| **CronJob** | **9** | **50.00%** |
+| **Namespace** | **9** | **50.00%** |
+| **Secret** | **9** | **50.00%** |
+| **DaemonSet** | **8** | **44.44%** |
+| **Job** | **8** | **44.44%** |
+| **PersistentVolumeClaim** | **8** | **44.44%** |
+| **ReplicaSet** | **7** | **38.89%** |
+| **Endpoints** | **4** | **22.22%** |
+| **HorizontalPodAutoscaler** | **4** | **22.22%** |
+| **NetworkPolicy** | **4** | **22.22%** |
+| **PersistentVolume** | **3** | **16.67%** |
+| **ClusterRole** | **2** | **11.11%** |
+| **ClusterRoleBinding** | **2** | **11.11%** |
+| **Node** | **2** | **11.11%** |
+| **Role** | **2** | **11.11%** |
+| **RoleBinding** | **2** | **11.11%** |
+| **Route** | **2** | **11.11%** |
+| **ServiceAccount** | **2** | **11.11%** |
+| **ServiceMonitor** | **2** | **11.11%** |
+| **CustomResourceDefinition** | **1** | **5.56%** |
+| **DeploymentConfig** | **1** | **5.56%** |
+| **PodSecurityPolicy** | **1** | **5.56%** |
+| **SealedSecret** | **1** | **5.56%** |
+| **StorageClass** | **1** | **5.56%** |
 
 #### By Output Formats
 
@@ -759,6 +799,7 @@
 | **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | X | X | X | X | X | X | X | all Graphviz output formats |
 | **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | X | | | | | | | |
 | **[GruCloud](https://github.com/grucloud/grucloud)** | | | | | | | | | PlantUML |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | | | | | | | | | Mermaid |
 | **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | | | | | X | | | X | |
 | **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | | | | | | | | React Flow |
 | **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | X | | X | X | X | X | | |
@@ -772,25 +813,25 @@
 
 |  | #Tools | %Tools |
 | :---: | :---: | :---: |
-| **KIS Support** | **12** | **70.59%** |
+| **KIS Support** | **12** | **66.67%** |
 
 | Output Format | #Tools | %Tools |
 | :---: | :---: | :---: |
-| **PNG** | **9** | **52.94%** |
-| **DOT** | **6** | **35.29%** |
-| **JPG** | **4** | **23.53%** |
-| **PDF** | **4** | **23.53%** |
-| **SVG** | **4** | **23.53%** |
-| **Web** (incl. React Flow) | **4** | **23.53%** |
-| **TIFF** | **3** | **17.65%** |
-| **GIF** | **2** | **11.76%** |
-| **PlantUML** | **2** | **11.76%** |
-| **AQL** | **1** | **5.88%** |
-| **ArangoDB** | **1** | **5.88%** |
-| **CQL** | **1** | **5.88%** |
-| **Cypher** | **1** | **5.88%** |
-| **Mermaid** | **1** | **5.88%** |
-| **XML for draw.io** | **1** | **5.88%** |
+| **PNG** | **9** | **50.00%** |
+| **DOT** | **6** | **33.33%** |
+| **JPG** | **4** | **22.22%** |
+| **PDF** | **4** | **22.22%** |
+| **SVG** | **4** | **22.22%** |
+| **Web** (incl. React Flow) | **4** | **22.22%** |
+| **TIFF** | **3** | **16.67%** |
+| **GIF** | **2** | **11.11%** |
+| **Mermaid** | **2** | **11.11%** |
+| **PlantUML** | **2** | **111.11%** |
+| **AQL** | **1** | **5.56%** |
+| **ArangoDB** | **1** | **5.56%** |
+| **CQL** | **1** | **5.56%** |
+| **Cypher** | **1** | **5.56%** |
+| **XML for draw.io** | **1** | **5.56%** |
 
 ### Comparing generated diagrams
 
@@ -841,6 +882,79 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 **TODO** but requires rewriting the [WordPress manifest](wordpress-manifest.yaml) with [GruCloud](https://github.com/grucloud/grucloud)'s JavaScript-based DSL!
 
+#### **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)**
+
+```mermaid
+classDiagram
+class Service_default_wordpress_mysql {
+  +kind: Service
+  +api_version: v1
+  +name: wordpress-mysql
+  +namespace: default
+  +ports: [(3306, 'TCP', None)]
+  +service_type: ClusterIP
+  +cluster_ip: None
+  +is_headless: ✓
+}
+class PersistentVolumeClaim_default_mysql_pv_claim {
+  +kind: PersistentVolumeClaim
+  +api_version: v1
+  +name: mysql-pv-claim
+  +namespace: default
+  +ports: []
+  +access_modes: ['ReadWriteOnce']
+  +storage_size: 512M
+}
+class Deployment_default_wordpress_mysql {
+  +kind: Deployment
+  +api_version: apps/v1
+  +name: wordpress-mysql
+  +namespace: default
+  +image: mysql:8.0
+  +ports: []
+}
+class Secret_default_mysql_pass {
+  +kind: Secret
+  +api_version: v1
+  +name: mysql-pass
+  +namespace: default
+  +ports: []
+  +data_keys: ['password']
+  +secret_type: Opaque
+}
+class Service_default_wordpress {
+  +kind: Service
+  +api_version: v1
+  +name: wordpress
+  +namespace: default
+  +ports: [(80, 'TCP', None)]
+  +service_type: LoadBalancer
+  +is_headless: ✗
+}
+class PersistentVolumeClaim_default_wp_pv_claim {
+  +kind: PersistentVolumeClaim
+  +api_version: v1
+  +name: wp-pv-claim
+  +namespace: default
+  +ports: []
+  +access_modes: ['ReadWriteOnce']
+  +storage_size: 512M
+}
+class Deployment_default_wordpress {
+  +kind: Deployment
+  +api_version: apps/v1
+  +name: wordpress
+  +namespace: default
+  +image: wordpress:6.2.1-apache
+  +ports: []
+}
+
+  %% Relationships
+Deployment_default_wordpress_mysql --> Secret_default_mysql_pass : reads_secret_key
+Deployment_default_wordpress_mysql --> Secret_default_mysql_pass : reads_secret_key
+Deployment_default_wordpress --> Secret_default_mysql_pass : reads_secret_key
+```
+
 #### **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)**
 
 **TODO** but requires annotating the [WordPress manifest](wordpress-manifest.yaml) with [K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram) annotations!
@@ -887,7 +1001,7 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 ### Popularity History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/KubeDiagrams,benc-uk/kubeview,steveteuber/kubectl-graph,nevalla/lens-resource-map-extension,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#philippemerle/KubeDiagrams&benc-uk/kubeview&steveteuber/kubectl-graph&nevalla/lens-resource-map-extension&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=philippemerle/KubeDiagrams,benc-uk/kubeview,steveteuber/kubectl-graph,nevalla/lens-resource-map-extension,mkimuram/k8sviz,trois-six/k8s-diagrams,grucloud/grucloud,sommerit/k8s-to-mermaid,kocierik/k8s-to-diagram,SocialGouv/react-k8s-viewer,jimmymills/k8s-diagram-previewer,imjoseangel/k8s-diagrams,kahowell/kube-diagram,sunny10031982/kube-diagrams,NickSchleicher/k8d,MrSir/k8s_diagram,B0nam/kubedraw&type=Date)](https://www.star-history.com/#philippemerle/KubeDiagrams&benc-uk/kubeview&steveteuber/kubectl-graph&nevalla/lens-resource-map-extension&mkimuram/k8sviz&trois-six/k8s-diagrams&grucloud/grucloud&sommerit/k8s-to-mermaid&kocierik/k8s-to-diagram&SocialGouv/react-k8s-viewer&jimmymills/k8s-diagram-previewer&imjoseangel/k8s-diagrams&kahowell/kube-diagram&sunny10031982/kube-diagrams&NickSchleicher/k8d&MrSir/k8s_diagram&B0nam/kubedraw&Date)
 
 ### Activity Timeline
 
