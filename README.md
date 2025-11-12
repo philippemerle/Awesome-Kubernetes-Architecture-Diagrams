@@ -836,7 +836,7 @@
 ### Comparing generated diagrams
 
 Following generated diagrams are based on the **[official Kubernetes WordPress tutorial](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)**.
-See the used **[WordPress](wordpress-manifest.yaml)** manifest.
+See the used **[WordPress](wordpress-manifest.yaml)** manifest declaring seven resources: 2 `Service`s, 2 `Deployment`s, 2 `PersistentVolumeClaim`s, and 1 `Secret`.
 
 #### **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)**
 
@@ -844,9 +844,21 @@ Architecture diagram generated from the **[WordPress](wordpress-manifest.yaml)**
 
 [![diagram](images/wordpress-manifest-KubeDiagrams.png)](images/wordpress-manifest-KubeDiagrams.png)
 
+Strengths:
+* All seven resources and all their relationships are represented.
+* `Namespace` and label-based clustering.
+
+Weaknesses: None
+
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
 [![diagram](images/wordpress-KubeDiagrams.png)](images/wordpress-KubeDiagrams.png)
+
+Strengths:
+* Cluster resources, i.e., `PersistentVolume` and `Node`, are represented.
+
+Weaknesses:
+* Too many edges to the `Secret` and `PersistentVolumeClaim` resources!
 
 #### **[KubeView](https://github.com/benc-uk/kubeview)**
 
@@ -854,11 +866,25 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 [![diagram](images/wordpress-KubeView.png)](images/wordpress-KubeView.png)
 
+Strengths:
+* All resources are represented.
+
+Weaknesses:
+* 2 edges from each pod to the secret are not represented!
+ 
 #### **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)**
 
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
 [![diagram](images/wordpress-kubectl-graph.png)](images/wordpress-kubectl-graph.png)
+
+Strengths:
+* All resources are represented.
+
+Weaknesses:
+* No Kubernetes icons!
+* 2 edges from each pod to the secret are not represented!
+* 2 edges from each persistent volume claim to its persistent volume are not represented!
 
 #### **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)**
 
@@ -866,17 +892,35 @@ Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** i
 
 [![diagram](images/wordpress-freelens-resource-map.png)](images/wordpress-freelens-resource-map.png)
 
+Strengths:
+* All seven resources are represented.
+
+Weaknesses:
+* 2 `ReplicaSet`s are not represented!
+
 #### **[k8sviz](https://github.com/mkimuram/k8sviz)**
 
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
 [![diagram](images/wordpress-k8sviz.png)](images/wordpress-k8sviz.png)
 
+Strengths:
+* `Namespace` clustering.
+
+Weaknesses:
+* The secret and edges to it are not represented!
+
 #### **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)**
 
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
 [![diagram](images/wordpress-k8s-diagrams.png)](images/wordpress-k8s-diagrams.png)
+
+Strengths:
+* `ReplicaSet` clustering.
+
+Weaknesses:
+* The secret and edges to it are not represented!
 
 #### **[GruCloud](https://github.com/grucloud/grucloud)**
 
@@ -955,6 +999,13 @@ Deployment_default_wordpress_mysql --> Secret_default_mysql_pass : reads_secret_
 Deployment_default_wordpress --> Secret_default_mysql_pass : reads_secret_key
 ```
 
+Strengths:
+* All seven resources are represented.
+
+Weaknesses:
+* No Kubernetes icons!
+* 4 edges from `Service`s to `Deployment`s and from `Deployment`s to `PersistentVolumeClaim`s are not represented!
+
 #### **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)**
 
 **TODO** but requires annotating the [WordPress manifest](wordpress-manifest.yaml) with [K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram) annotations!
@@ -968,6 +1019,12 @@ Deployment_default_wordpress --> Secret_default_mysql_pass : reads_secret_key
 Architecture diagram generated from the **[WordPress](wordpress-manifest.yaml)** manifest:
 
 [![diagram](images/wordpress-k8s-diagram.png)](images/wordpress-k8s-diagram.png)
+
+Strengths:
+* All seven resources are represented.
+* `Deployment` and `ReplicaSet`-based clustering.
+
+Weaknesses: None.
 
 #### **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)**
 
@@ -994,6 +1051,12 @@ Architecture diagram generated from the **[WordPress](wordpress-manifest.yaml)**
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
 [![diagram](images/wordpress-KubeDraw.png)](images/wordpress-KubeDraw.png)
+
+Strengths: None.
+
+Weaknesses:
+* `Secret` and `PersistentVolumeClaim` resources are not represented!
+
 
 #### **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)**
 
