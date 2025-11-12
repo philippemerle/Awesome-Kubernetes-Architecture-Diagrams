@@ -1061,6 +1061,7 @@ Strengths: None.
 
 Weaknesses:
 * `Secret` and `PersistentVolumeClaim` resources are not represented!
+* The `kube-root-ca.crt` config map is not represented!
 * Pod labels overlap!
 
 #### **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)**
