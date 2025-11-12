@@ -1017,7 +1017,7 @@ Weaknesses:
 
 #### **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)**
 
-**TODO**
+**TODO** but lacks documentation on how to run the tool!
 
 #### **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)**
 
@@ -1033,23 +1033,23 @@ Weaknesses: None.
 
 #### **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)**
 
-**TODO**
+**Failed** on a thrown `AttributeError` exception!
 
 #### **[kube-diagram](https://github.com/kahowell/kube-diagram)**
 
-**TODO**
+**TODO** but only supports `CronJob`, `DeploymentConfig`, and `Service` kinds!
 
 #### **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)**
 
-**TODO**
+**Failed** on a thrown `ImportError` exception!
 
 #### **[k8d](https://github.com/NickSchleicher/k8d)**
 
-**TODO**
+**TODO** but only supports `Pod` and `NetworkPolicy` kinds!
 
 #### **[k8s_diagram](https://github.com/MrSir/k8s_diagram)**
 
-**TODO**
+**TODO** but lacks a CLI!
 
 #### **[KubeDraw](https://github.com/B0nam/kubedraw)**
 
