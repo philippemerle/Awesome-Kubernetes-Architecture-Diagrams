@@ -848,7 +848,7 @@ Strengths:
 * All seven resources and all their relationships are represented.
 * `Namespace` and label-based clustering.
 
-Weaknesses: None
+Weaknesses: None.
 
 Architecture diagram generated from a **[WordPress](wordpress-manifest.yaml)** instance deployed on a Kubernetes cluster:
 
@@ -871,6 +871,7 @@ Strengths:
 
 Weaknesses:
 * 2 edges from each pod to the secret are not represented!
+* 2 edges from each pod to the `kube-root-ca.crt` config map are not represented!
  
 #### **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)**
 
@@ -884,6 +885,7 @@ Strengths:
 Weaknesses:
 * No Kubernetes icons!
 * 2 edges from each pod to the secret are not represented!
+* 2 edges from each pod to the `kube-root-ca.crt` config map are not represented!
 * 2 edges from each persistent volume claim to its persistent volume are not represented!
 
 #### **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)**
@@ -897,6 +899,7 @@ Strengths:
 
 Weaknesses:
 * 2 `ReplicaSet`s are not represented!
+* The `kube-root-ca.crt` config map is not represented!
 
 #### **[k8sviz](https://github.com/mkimuram/k8sviz)**
 
@@ -909,6 +912,7 @@ Strengths:
 
 Weaknesses:
 * The secret and edges to it are not represented!
+* The `kube-root-ca.crt` config map is not represented!
 
 #### **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)**
 
@@ -921,6 +925,7 @@ Strengths:
 
 Weaknesses:
 * The secret and edges to it are not represented!
+* The `kube-root-ca.crt` config map is not represented!
 
 #### **[GruCloud](https://github.com/grucloud/grucloud)**
 
@@ -1056,7 +1061,7 @@ Strengths: None.
 
 Weaknesses:
 * `Secret` and `PersistentVolumeClaim` resources are not represented!
-
+* Pod labels overlap!
 
 #### **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)**
 
