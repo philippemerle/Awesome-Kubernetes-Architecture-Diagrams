@@ -854,7 +854,7 @@
 #### By Resource Clustering
 
 | Tool | Clustering Support | Namespaces | Owners | Labels | Annotations | Others |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | | X | X | |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | | | | | | |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | | | | | |
