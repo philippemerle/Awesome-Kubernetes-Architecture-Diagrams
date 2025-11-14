@@ -273,38 +273,38 @@
   * Resource clustering unsupported
   * Output formats: PlantUML
 
-  * **k8s-to-mermaid**: [https://github.com/sommerit/k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)
-    * This script parses Kubernetes YAML files and generates a Mermaid class diagram that visualizes the resources and their relationships within a Kubernetes cluster
-    * ![License]( https://img.shields.io/github/license/sommerit/k8s-to-mermaid)
-    * Popularity:
-      * ![GitHub Repo stars](https://img.shields.io/github/stars/sommerit/k8s-to-mermaid)
-      * ![GitHub Repo forks](https://img.shields.io/github/forks/sommerit/k8s-to-mermaid)
-    * Activity:
-      * ![GitHub Created At](https://img.shields.io/github/created-at/sommerit/k8s-to-mermaid)
-      * ![GitHub last commit](https://img.shields.io/github/last-commit/sommerit/k8s-to-mermaid?style=flat)
-      * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/sommerit/k8s-to-mermaid)
-      * ![GitHub contributors](https://img.shields.io/github/contributors/sommerit/k8s-to-mermaid)
-    * Implementation: Python
-    * Usage mode: CLI
-    * Input formats: K8s manifests
-    * Supported Kubernetes resources
-      * ConfigMap
-      * CronJob
-      * DaemonSet
-      * Deployment
-      * HorizontalPodAutoscaler
-      * Ingress
-      * Job
-      * NetworkPolicy
-      * PersistentVolumeClaim
-      * Pod
-      * ReplicaSet
-      * Secret
-      * Service
-      * StatefulSet
-    * KIS unsupported
-    * Resource clustering unsupported
-    * Output formats: Mermaid
+* **k8s-to-mermaid**: [https://github.com/sommerit/k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)
+  * This script parses Kubernetes YAML files and generates a Mermaid class diagram that visualizes the resources and their relationships within a Kubernetes cluster
+  * ![License]( https://img.shields.io/github/license/sommerit/k8s-to-mermaid)
+  * Popularity:
+    * ![GitHub Repo stars](https://img.shields.io/github/stars/sommerit/k8s-to-mermaid)
+    * ![GitHub Repo forks](https://img.shields.io/github/forks/sommerit/k8s-to-mermaid)
+  * Activity:
+    * ![GitHub Created At](https://img.shields.io/github/created-at/sommerit/k8s-to-mermaid)
+    * ![GitHub last commit](https://img.shields.io/github/last-commit/sommerit/k8s-to-mermaid?style=flat)
+    * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/sommerit/k8s-to-mermaid)
+    * ![GitHub contributors](https://img.shields.io/github/contributors/sommerit/k8s-to-mermaid)
+  * Implementation: Python
+  * Usage mode: CLI
+  * Input formats: K8s manifests
+  * Supported Kubernetes resources
+    * ConfigMap
+    * CronJob
+    * DaemonSet
+    * Deployment
+    * HorizontalPodAutoscaler
+    * Ingress
+    * Job
+    * NetworkPolicy
+    * PersistentVolumeClaim
+    * Pod
+    * ReplicaSet
+    * Secret
+    * Service
+    * StatefulSet
+  * KIS unsupported
+  * Resource clustering unsupported
+  * Output formats: Mermaid
 
 * **K8s Diagram architecture generator**: [https://github.com/kocierik/k8s-to-diagram](https://github.com/kocierik/k8s-to-diagram)
   * Generate a diagram architecture from kubernetes manifests
