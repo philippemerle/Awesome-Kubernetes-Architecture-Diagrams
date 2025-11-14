@@ -90,6 +90,7 @@
   * Input formats: K8s manifests, kustomization files, Helm charts, helmfiles, and K8s API
   * 47+ Kubernetes resource kinds supported
   * KIS supported
+  * Resource clustering based on namespaces, labels, and annotations
   * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, and DOT
 
 * **KubeView**: [https://github.com/benc-uk/kubeview](https://github.com/benc-uk/kubeview)
@@ -122,6 +123,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering unsupported
   * Output formats: Web pages
 
 * **kubectl-graph**: [https://github.com/steveteuber/kubectl-graph](https://github.com/steveteuber/kubectl-graph)
@@ -149,6 +151,7 @@
     * Service
     * any other kinds
   * KIS unsupported
+  * Resource clustering unsupported
   * Output formats: AQL, ArangoDB, CQL, Cypher, DOT, and Mermaid
 
 * **Lens Resource Map**: [https://github.com/nevalla/lens-resource-map-extension](https://github.com/nevalla/lens-resource-map-extension)
@@ -176,6 +179,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering unsupported
   * Output formats: Web pages
 
 * **k8sviz**: [https://github.com/mkimuram/k8sviz](https://github.com/mkimuram/k8sviz)
@@ -206,6 +210,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering based on namespaces
   * Output formats: [all Graphviz output formats](https://graphviz.org/docs/outputs/)
 
 * **Kubernetes diagrams**: [https://github.com/trois-six/k8s-diagrams](https://github.com/trois-six/k8s-diagrams)
@@ -232,6 +237,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering based on namespaces and `ReplicaSet` owners
   * Output formats: DOT only
 
 * **GruCloud**: [https://github.com/grucloud/grucloud](https://github.com/grucloud/grucloud)
@@ -264,6 +270,7 @@
     * ServiceAccount
     * StatefulSet
   * KIS unsupported
+  * Resource clustering unsupported
   * Output formats: PlantUML
 
   * **k8s-to-mermaid**: [https://github.com/sommerit/k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)
@@ -296,6 +303,7 @@
       * Service
       * StatefulSet
     * KIS unsupported
+    * Resource clustering unsupported
     * Output formats: Mermaid
 
 * **K8s Diagram architecture generator**: [https://github.com/kocierik/k8s-to-diagram](https://github.com/kocierik/k8s-to-diagram)
@@ -323,6 +331,7 @@
     * Service
     * StatefulSet
   * KIS unsupported
+  * Resource clustering unsupported
   * Output formats: SVG and PNG
 
 * **react-k8s-viewer**: [https://github.com/SocialGouv/react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)
@@ -350,6 +359,7 @@
     * Service
     * ServiceMonitor
   * KIS unsupported
+  * Resource clustering unsupported
   * Output formats: React Flow
 
 * **K8s Diagram Previewer**: [https://github.com/jimmymills/k8s-diagram-previewer](https://github.com/jimmymills/k8s-diagram-previewer)
@@ -379,6 +389,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering based on namespaces, `Deployment` and `ReplicaSet` owners
   * Output formats: PNG, JPG, SVG, PDF, and DOT
 
 * **k8s-diagrams**: [https://github.com/imjoseangel/k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)
@@ -405,6 +416,7 @@
     * ReplicaSet
     * Service
   * KIS supported
+  * Resource clustering based on namespaces
   * Output formats: PNG, JPG, SVG, PDF, and DOT
 
 * **kube-diagram**: [https://github.com/kahowell/kube-diagram](https://github.com/kahowell/kube-diagram)
@@ -426,6 +438,7 @@
     * DeploymentConfig
     * Service
   * KIS unsupported
+  * Resource clustering unsupported
   * Output formats: PlantUML
 
 * **kube-diagrams**: [https://github.com/sunny10031982/kube-diagrams](https://github.com/sunny10031982/kube-diagrams)
@@ -447,6 +460,7 @@
     * Pod
     * Service
   * KIS supported
+  * Resource clustering based on `Ingress` hosts and paths
   * Output formats: PNG
 
 * **k8d**: [https://github.com/NickSchleicher/k8d](https://github.com/NickSchleicher/k8d)
@@ -467,6 +481,7 @@
     * NetworkPolicy
     * Pod
   * KIS supported
+  * Resource clustering unsupported
   * Output formats: XML for draw.io
 
 * **k8s_diagram**: [https://github.com/MrSir/k8s_diagram](https://github.com/MrSir/k8s_diagram)
@@ -493,6 +508,7 @@
     * Service
     * StatefulSet
   * KIS supported
+  * Resource clustering unsupported
   * Output formats: PNG
 
 * **KubeDraw**: [https://github.com/B0nam/kubedraw](https://github.com/B0nam/kubedraw)
@@ -516,6 +532,7 @@
     * Pod
     * Service
   * KIS supported
+  * Resource clustering unsupported
   * Output formats: PNG
 
 * **Kubeviz**: [https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)
@@ -537,6 +554,7 @@
     * Secret
     * Service
   * KIS supported
+  * Resource clustering based on namespaces
   * Output formats: PNG
 
 ### Comparison Tables
@@ -832,6 +850,38 @@
 | **CQL** | **1** | **5.56%** |
 | **Cypher** | **1** | **5.56%** |
 | **XML for draw.io** | **1** | **5.56%** |
+
+#### By Resource Clustering
+
+| Tool | Clustering Support | Namespaces | Owners | Labels | Annotations | Others |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | | X | X | |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | | | | | | |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | | | | | |
+| **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | | | | | | |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | X | | | | |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | X | X | | | |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | | | | | | |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | | | | | | |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | | | | | | |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | | | | | |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | X | X | | | |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | X | X | | | | |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | | | | | | |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | X | | | | | `Ingress` hosts and paths |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | | | | | | |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | | | | | | |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | | | | | | |
+| **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | X | X | | | | |
+
+| Resource Clustering | #Tools | %Tools |
+| :---: | :---: | :---: |
+| **Supported** | **7** | **38.89%** |
+| **Namespaces** | **6** | **33.33%** |
+| **Owners** | **2** | **11.11%** |
+| **Labels** | **1** | **5.56%** |
+| **Annotations** | **1** | **5.56%** |
+| **Others** | **1** | **5.56%** |
 
 ### Comparing generated diagrams
 
