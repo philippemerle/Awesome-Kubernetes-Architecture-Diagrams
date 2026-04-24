@@ -3,6 +3,7 @@
 ## Kubernetes Icons Set (KIS)
 
 * [Kubernetes Icons Set](https://github.com/kubernetes/community/tree/master/icons) provides icons to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandibility.
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Drawing Tools
 
