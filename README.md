@@ -126,6 +126,24 @@
   * Resource clustering unsupported
   * Output formats: Web pages
 
+* **KubeStellar Console**: [https://github.com/kubestellar/console](https://github.com/kubestellar/console)
+  * AI-powered multi-cluster Kubernetes dashboard with Mission Control FlightPlan Blueprint — generates interactive SVG architecture diagrams from live cluster state showing cluster zones, project nodes, dependency paths, and deployment topology.
+  * ![License](https://img.shields.io/github/license/kubestellar/console)
+  * Popularity:
+    * ![GitHub Repo stars](https://img.shields.io/github/stars/kubestellar/console)
+    * ![GitHub Repo forks](https://img.shields.io/github/forks/kubestellar/console)
+  * Activity:
+    * ![GitHub Created At](https://img.shields.io/github/created-at/kubestellar/console)
+    * ![GitHub last commit](https://img.shields.io/github/last-commit/kubestellar/console?style=flat)
+    * ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kubestellar/console)
+    * ![GitHub contributors](https://img.shields.io/github/contributors/kubestellar/console)
+  * Implementation: TypeScript and Go
+  * Usage mode: GUI and SaaS
+  * Input formats: K8s API (live cluster state)
+  * SVG architecture blueprints with cluster zones, project nodes, dependency edges, and phase timelines
+  * PDF/print export supported
+  * Resource clustering based on namespaces and cluster topology
+
 * **kubectl-graph**: [https://github.com/steveteuber/kubectl-graph](https://github.com/steveteuber/kubectl-graph)
   * A kubectl plugin to visualize Kubernetes resources and relationships
   * ![License]( https://img.shields.io/github/license/steveteuber/kubectl-graph)
