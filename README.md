@@ -90,7 +90,7 @@
   * Implementation: Python with Diagrams, and JavaScript
   * Usage mode: CLI, GUI, and SaaS
   * Input formats: K8s manifests, kustomization files, Helm charts, helmfiles, and K8s API
-  * 47+ Kubernetes resource kinds supported
+  * 51+ Kubernetes resource kinds supported
   * KIS supported
   * Resource clustering based on namespaces, labels, and annotations
   * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, DOT, and draw.io
@@ -634,7 +634,7 @@
 
 | Tool | K8s Kinds | KIS Support | Activity | Popularity |
 | :--------: | :---: |  :-------: | :-------: | :-------: |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">47+</span>** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">51+</span>** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/philippemerle/KubeDiagrams) ![GitHub last commit](https://img.shields.io/github/last-commit/philippemerle/KubeDiagrams?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/philippemerle/KubeDiagrams) | ![GitHub Repo stars](https://img.shields.io/github/stars/philippemerle/KubeDiagrams?style=flat&color=%2300FF00) |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | **14** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/benc-uk/kubeview) ![GitHub last commit](https://img.shields.io/github/last-commit/benc-uk/kubeview?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/benc-uk/kubeview) | ![GitHub Repo stars](https://img.shields.io/github/stars/benc-uk/kubeview?style=flat&color=%2300FF00) |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | **<span style="color:green">8+</span>** | **<span style="color:red">No</span>** | ![GitHub Created At](https://img.shields.io/github/created-at/steveteuber/kubectl-graph) ![GitHub last commit](https://img.shields.io/github/last-commit/steveteuber/kubectl-graph?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/steveteuber/kubectl-graph) | ![GitHub Repo stars](https://img.shields.io/github/stars/steveteuber/kubectl-graph?style=flat&color=%2300FF00) |
 | **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | **9** | Yes | ![GitHub Created At](https://img.shields.io/github/created-at/nevalla/lens-resource-map-extension) ![GitHub last commit](https://img.shields.io/github/last-commit/nevalla/lens-resource-map-extension?style=flat) ![GitHub contributors](https://img.shields.io/github/contributors/nevalla/lens-resource-map-extension) | ![GitHub Repo stars](https://img.shields.io/github/stars/nevalla/lens-resource-map-extension?style=flat&color=%2300FF00) |
@@ -841,7 +841,7 @@
 
 | Tool | #Kinds | ConfigMap | ClusterRole | ClusterRoleBinding | CronJob | CustomResourceDefinition | DaemonSet | Deployment | Endpoints | HorizontalPodAutoscaler | Ingress | Job | Namespace | NetworkPolicy | Node | PersistentVolume | PersistentVolumeClaim | Pod | PodSecurityPolicy | ReplicaSet | Role | RoleBinding | Secret | Service | ServiceAccount | StatefulSet | StorageClass | Others |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">47+</span>** | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | Many |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | **<span style="color:green">51+</span>** | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | Many |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | **14** | X | | | X | | X | X | X | | X | X | X | | | | X | X | | X | | | X | X | | X | | |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | **<span style="color:green">8+</span>** | | | | | | | | X | | X | | X | X | X | | | X | | | | | | X | | | | Route |
 | **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | **9** | X | | | | | X | X | | | X | | | | | | X | X | | | | | X | X | | X | | |
