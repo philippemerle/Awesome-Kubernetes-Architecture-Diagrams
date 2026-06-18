@@ -1,6 +1,7 @@
 # Awesome Kubernetes Architecture Diagrams
 
 ## Kubernetes Icons Set (KIS)
+- [GenAI DrawIO Creator](https://github.com/tuoxie2046/GenAI-DrawIO-Creator) - AI-powered diagram generation from natural language. Supports Kubernetes architecture diagrams. Apache 2.0.
 
 * [Kubernetes Icons Set](https://github.com/kubernetes/community/tree/master/icons) provides icons to standardize Kubernetes architecture diagrams for presentation. Having uniform architecture diagrams improve understandibility.
 
