@@ -93,7 +93,7 @@
   * 51+ Kubernetes resource kinds supported
   * KIS supported
   * Resource clustering based on namespaces, labels, and annotations
-  * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, DOT, and draw.io
+  * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, DOT, draw.io, and Mermaid
 
 * **KubeView**: [https://github.com/benc-uk/kubeview](https://github.com/benc-uk/kubeview)
   * Kubernetes cluster visualiser and graphical explorer
@@ -897,28 +897,28 @@
 
 #### By Output Formats
 
-| Tool | KIS Support | DOT | draw.io | GIF | JPG | PNG | PDF | SVG | TIFF | Others |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X | X | X | X | X | X | X | Web |
-| **[KubeView](https://github.com/benc-uk/kubeview)** | X | | | | | | | | | Web |
-| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | X | | | | | | | | AQL, ArangoDB, CQL, Cypher, and Mermaid |
-| **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | X | | | | | | | | | Web |
-| **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | X | | X | X | X | X | X | X | all Graphviz output formats |
-| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | X | | | | | | | | |
-| **[GruCloud](https://github.com/grucloud/grucloud)** | | | | | | | | | | PlantUML |
-| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | | | | | | | | | | Mermaid |
-| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | | | | | | X | | | X | |
-| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | | | | | | | | | React Flow |
-| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | X | | | X | X | X | X | | |
-| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | X | X | | | X | X | X | X | | |
-| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | | | | | | | | | | PlantUML |
-| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | X | | | | | X | | | | |
-| **[k8d](https://github.com/NickSchleicher/k8d)** | X | | X | | | | | | | |
-| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | X | | | | | X | | | | |
-| **[Kubernetes to Draw.io Converter](https://github.com/nevidanniu/k8s-to-drawio)** | | | X | | | | | | | |
-| **[Koomos](https://github.com/Pitchouneee/koomos)** | | | | | | | | | | Mermaid |
-| **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | | | | X | | | | |
-| **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | X | | | | | X | | | | |
+| Tool | KIS Support | DOT | draw.io | GIF | JPG | Mermaid | PNG | PDF | SVG | TIFF | Others |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X | X | X | X | X | X | X | X | Web |
+| **[KubeView](https://github.com/benc-uk/kubeview)** | X | | | | | | | | | | Web |
+| **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | X | | | | X | | | | | AQL, ArangoDB, CQL, and Cypher |
+| **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | X | | | | | | | | | | Web |
+| **[k8sviz](https://github.com/mkimuram/k8sviz)** | X | X | | X | X | | X | X | X | X | all Graphviz output formats |
+| **[Kubernetes diagrams](https://github.com/trois-six/k8s-diagrams)** | X | X | | | | | | | | | |
+| **[GruCloud](https://github.com/grucloud/grucloud)** | | | | | | | | | | | PlantUML |
+| **[k8s-to-mermaid](https://github.com/sommerit/k8s-to-mermaid)** | | | | | | X | | | | | |
+| **[K8s Diagram architecture generator](https://github.com/kocierik/k8s-to-diagram)** | | | | | | X | | | | X | |
+| **[react-k8s-viewer](https://github.com/SocialGouv/react-k8s-viewer)** | | | | | | | | | | | React Flow |
+| **[K8s Diagram Previewer](https://github.com/jimmymills/k8s-diagram-previewer)** | X | X | | | X | | X | X | X | | |
+| **[k8s-diagrams](https://github.com/imjoseangel/k8s-diagrams)** | X | X | | | X | | X | X | X | | |
+| **[kube-diagram](https://github.com/kahowell/kube-diagram)** | | | | | | | | | | | PlantUML |
+| **[kube-diagrams](https://github.com/sunny10031982/kube-diagrams)** | X | | | | | | X | | | | |
+| **[k8d](https://github.com/NickSchleicher/k8d)** | X | | X | | | | | | | | |
+| **[k8s_diagram](https://github.com/MrSir/k8s_diagram)** | X | | | | | | X | | | | |
+| **[Kubernetes to Draw.io Converter](https://github.com/nevidanniu/k8s-to-drawio)** | | | X | | | | | | | | |
+| **[Koomos](https://github.com/Pitchouneee/koomos)** | | | | | | | X | | | | |
+| **[KubeDraw](https://github.com/B0nam/kubedraw)** | X | | | | | | X | | | | |
+| **[Kubeviz](https://www.bitfoundry.co/visualizing-kubernetes-manifests-and-helm-chart-with-kubeviz/)** | X | | | | | | X | | | | | |
 
 |  | #Tools | %Tools |
 | :---: | :---: | :---: |
@@ -929,11 +929,11 @@
 | **PNG** | **9** | **45.00%** |
 | **DOT** | **6** | **30.00%** |
 | **JPG** | **4** | **20.00%** |
+| **Mermaid** | **4** | **20.00%** |
 | **PDF** | **4** | **20.00%** |
 | **SVG** | **4** | **20.00%** |
 | **Web** (incl. React Flow) | **4** | **20.00%** |
 | **draw.io** | **3** | **15.00%** |
-| **Mermaid** | **3** | **15.00%** |
 | **TIFF** | **3** | **15.00%** |
 | **GIF** | **2** | **10.00%** |
 | **PlantUML** | **2** | **10.00%** |
