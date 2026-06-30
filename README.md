@@ -93,7 +93,7 @@
   * 51+ Kubernetes resource kinds supported
   * KIS supported
   * Resource clustering based on namespaces, labels, and annotations
-  * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, DOT, draw.io, and Mermaid
+  * Output formats: PNG, JPG, GIF, TIFF, SVG, PDF, DOT, draw.io, Mermaid, and D2
 
 * **KubeView**: [https://github.com/benc-uk/kubeview](https://github.com/benc-uk/kubeview)
   * Kubernetes cluster visualiser and graphical explorer
@@ -899,7 +899,7 @@
 
 | Tool | KIS Support | DOT | draw.io | GIF | JPG | Mermaid | PNG | PDF | SVG | TIFF | Others |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X | X | X | X | X | X | X | X | Web |
+| **[KubeDiagrams](https://github.com/philippemerle/KubeDiagrams)** | X | X | X | X | X | X | X | X | X | X | D2 and Web |
 | **[KubeView](https://github.com/benc-uk/kubeview)** | X | | | | | | | | | | Web |
 | **[kubectl-graph](https://github.com/steveteuber/kubectl-graph)** | | X | | | | X | | | | | AQL, ArangoDB, CQL, and Cypher |
 | **[Lens Resource Map](https://github.com/nevalla/lens-resource-map-extension)** | X | | | | | | | | | | Web |
@@ -941,6 +941,7 @@
 | **ArangoDB** | **1** | **5.00%** |
 | **CQL** | **1** | **5.00%** |
 | **Cypher** | **1** | **5.00%** |
+| **D2** | **1** | **5.00%** |
 
 #### By Resource Clustering
 
